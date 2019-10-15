@@ -1,3 +1,7 @@
+# My Learning Tracker [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Web%20Dev%20learning%20tracker%20&url=https://github.com/duxiaoan/My-Learning-Tracker&via=andrebh&hashtags=100DaysofCode)
+
+A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.
+
 ![under][under]
 
 ## My objective is prepare to Google Develover Challenge Scholarschip so I must follow this road
@@ -19,11 +23,19 @@
 
 ## My road is based on https://roadmap.sh/frontend
 
-# My Learning Tracker [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Web%20Dev%20learning%20tracker%20&url=https://github.com/duxiaoan/My-Learning-Tracker&via=andrebh&hashtags=100DaysofCode)
+## My Next Step...
 
-A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.
+1. Finish first freecodecamp Responsive Web Design Certification (300 hours)
+2. Learn Git and Github
+3. Basic Terminal Commands
+4. CS50 Havard School
+5. Grasshopper app
+6. Curso em Vídeo (Portuguese)
+7. ...
 
-[For my full portfolio(!Under construction)](https://syknapse.github.io/Syk-Houdeib/ "https://syknapse.github.io/Syk-Houdeib") || [For my learning log click here](https://github.com/Syknapse/My-Learning-Tracker/blob/master/log.md "Regular logs of my learning with links, reflections, and information about my learning process")
+
+
+[For my full portfolio(!Under construction)](https://syknapse.github.io/Syk-Houdeib/ "https://syknapse.github.io/Syk-Houdeib") || [For my learning log click here(!Under construction)](https://github.com/Syknapse/My-Learning-Tracker/blob/master/log.md "Regular logs of my learning with links, reflections, and information about my learning process")
 
 ----
 

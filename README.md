@@ -82,6 +82,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 [//]: # (Reference links to courses)
 
+[My Curriculum - freeCodeCamp.org]: https://www.freecodecamp.org
 [The Complete JavaScript Handbook]: https://medium.freecodecamp.org/the-complete-javascript-handbook-f26b2c71719c
 [JavaScript clean code guide]: https://github.com/ryanmcdermott/clean-code-javascript
 [Front-End Web Developer Nanodegree]: https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001

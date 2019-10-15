@@ -60,7 +60,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 |            Status           |   Year   | Course                                                          |                Tutor                        |
 |:---------------------------:|:---------|:----------------------------------------------------------------|:-------------------------------------------:|
-| ![In Progress][In Progress] |          | Reading [You Don't know JavaScript]                             | [Kyle Simpson]                              |
+| ![In Progress][In Progress] |          | [My Curriculum - freeCodeCamp.org]                              | [freeCodeCamp.org]                              |
 | ![Completed][Completed]     | Oct 2019 | [Curso Grátis de JavaScript]                                    | [Curso em Vídeo]                          |
 | ![Completed][Completed]     | Feb 2019 | [The Complete JavaScript Handbook]                              | [Flavio Copes]                              |
 | ![Completed][Completed]     | Jan 2019 | [JavaScript clean code guide]                                   | [Ryan McDermott]                            |
@@ -107,6 +107,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 [//]: # (Reference links to tutors)
 
+[freeCodeCamp.org]: https://www.freecodecamp.org 
 [Curso em Vídeo]: https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
 [Kyle Simpson]: https://twitter.com/getify
 [Flavio Copes]: https://twitter.com/flaviocopes

@@ -3,11 +3,11 @@
 A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.
 
 [For my full portfolio(!Under construction)](https://syknapse.github.io/Syk-Houdeib/ "https://syknapse.github.io/Syk-Houdeib") || [For my learning log click here](https://github.com/Syknapse/My-Learning-Tracker/blob/master/log.md "Regular logs of my learning with links, reflections, and information about my learning process")
-
+[under]: https://github.com/duxiaoan/My-Learning-Tracker-1/blob/master/IMGBIN_construction-stock-illustration-brick-png_93R4fKmY.png "under"
 ----
 
 ## Skills
-
+![under]
 [done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
 
 |               Skill              | 1<br>Introduction | 2<br>Basics   | 3<br>Good     | 4<br>Pretty Good | 5<br>Confident | 6<br>Awesome    |

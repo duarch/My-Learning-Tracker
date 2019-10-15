@@ -1,5 +1,22 @@
 ![under][under]
 
+## My objective is prepare to Google Develover Challenge Scholarschip so I must follow this road
+
+>Prerequisites and Requirements
+>To succeed in this program, you need to have experience with building front-end web applications with:
+>
+>HTML & CSS
+>JavaScript
+>Asynchronous JavaScript (AJAX)
+>One or More Front-End Frameworks (Angular, Backbone, Ember, and more)
+>Web Forms
+>You should have familiarity with the following:
+>
+>Web Accessibility Standards
+>Using Node Package Manager (NPM)
+>Git & GitHub
+>Unix/Linux Command Line Basics
+
 # My Learning Tracker [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Web%20Dev%20learning%20tracker%20&url=https://github.com/duxiaoan/My-Learning-Tracker&via=andrebh&hashtags=100DaysofCode)
 
 A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.

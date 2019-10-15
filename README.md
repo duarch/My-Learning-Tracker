@@ -100,9 +100,11 @@ A complete log of my web development skills, learning, resources, highlights, in
 [Eloquent JavaScript]: http://eloquentjavascript.net/
 [Learn CSS Grid]: https://scrimba.com/g/gR8PTE
 [The Beginner's Guide to Reactjs]: https://egghead.io/courses/the-beginner-s-guide-to-reactjs
+[Curso Grátis de JavaScript]: https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
 
 [//]: # (Reference links to tutors)
 
+[Curso em Vídeo]: https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
 [Kyle Simpson]: https://twitter.com/getify
 [Flavio Copes]: https://twitter.com/flaviocopes
 [Ryan McDermott]: https://github.com/ryanmcdermott

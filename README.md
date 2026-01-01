@@ -2,26 +2,40 @@
 
 A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.
 
-![under][under]
+![GitHub last commit](https://img.shields.io/github/last-commit/duarch/My-Learning-Tracker)
 
-## My objective is prepare to Google Develover Challenge Scholarschip so I must follow this road
 
->Prerequisites and Requirements
->To succeed in this program, you need to have experience with building front-end web applications with:
->
->HTML & CSS
->JavaScript
->Asynchronous JavaScript (AJAX)
->One or More Front-End Frameworks (Angular, Backbone, Ember, and more)
->Web Forms
->You should have familiarity with the following:
->
->Web Accessibility Standards
->Using Node Package Manager (NPM)
->Git & GitHub
->Unix/Linux Command Line Basics
+## My objective is learn core concepts to become a REAL senior developer
 
-## My road is based on https://roadmap.sh/frontend
+### Prerequisites and Requirements for Being Considered a Senior Full Stack Developer
+
+#### To be considered a senior full stack developer, 
+
+> Must have extensive experience with building and maintaining scalable web applications, including:
+
+1. Front-end frameworks such as Angular, React, or Svelte for creating dynamic user interfaces
+2. Back-end languages like Python or Golang for server-side logic and API development
+3. Database management systems (e.g., SQL/NoSQL databases like PostgreSQL, MongoDB) for data persistence and querying
+4. API design and integration, including RESTful services, GraphQL, and microservices architectures
+5. Deployment and DevOps practices, such as CI/CD pipelines, containerization (Docker/Kubernetes), and cloud platforms (AWS, Azure, or GCP)
+6. Security best practices, including authentication (OAuth, JWT), encryption, and vulnerability mitigation
+7. Performance optimization techniques for both front-end (e.g., lazy loading, code splitting) and back-end (e.g., caching, indexing)
+
+> Should have advanced knowledge in the following areas to demonstrate seniority:
+
+1. Relevant certifications (e.g., AWS Certified Developer, Google Cloud Professional Developer, or full stack-specific credentials)
+2. Data handling and analytics tools, including data knowledge for processing large datasets
+3. Big data technologies like SAS for statistical analysis, PySpark for distributed data processing, and PowerBI for visualization and reporting
+
+> Additionally, seniority is reflected in soft skills and broader expertise such as:
+
+1. Mentoring junior developers and leading technical teams
+2. Architectural decision-making for complex systems, including scalability and maintainability
+3. Problem-solving in high-pressure environments, with a track record of debugging and resolving production issues
+4. Version control mastery with Git, including branching strategies and code reviews
+5. Agile methodologies and project management tools (e.g., Jira, Scrum) for collaborative development
+
+## My road is on https://roadmap.sh/duarch
 
 ## My Next Step...
 
@@ -34,48 +48,45 @@ A complete log of my web development skills, learning, resources, highlights, in
 7. ...
 
 
-
-[For my full portfolio(!Under construction)](https://syknapse.github.io/Syk-Houdeib/ "https://syknapse.github.io/Syk-Houdeib") || [For my learning log click here(!Under construction)](https://github.com/Syknapse/My-Learning-Tracker/blob/master/log.md "Regular logs of my learning with links, reflections, and information about my learning process")
-
 ----
 
 ## Skills
 
 [done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
 
-|               Skill              | 1<br>Introduction | 2<br>Basics   | 3<br>Good     | 4<br>Pretty Good | 5<br>Confident | 6<br>Awesome    |
-|:-------------------------------- |:-----------------:|:-------------:|:-------------:|:----------------:|:--------------:|:---------------:|
-|**HTML5**                         | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
-|**CSS3**                          | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**JavaScript**                    | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**ES6**                           | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**React**                         | ![done][done]     |               |               |                  |                |                 |
-|**Redux**                         |                   |               |               |                  |                |                 |
-|**Backbone**                      |                   |               |               |                  |                |                 |
-|**Git**                           | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Git bash**                      |                   |               |               |                  |                |                 |
-|**GitHub**                        | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Bitbucket**                     |                   |               |               |                  |                |                 |
-|**Gulp/Webpack**                  |                   |               |               |                  |                |                 |
-|**Agile**                         | ![done][done]     |               |               |                  |                |                 |
-|**Stylus**                        |                   |               |               |                  |                |                 |
-|**Working with APIs**             |                   |               |               |                  |                |                 |
-|**jQuery**                        | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Css Grid & Flex-box**           | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Responsive design**             | ![done][done]     |               |               |                  |                |                 |
-|**Mobile first**                  | ![done][done]     |               |               |                  |                |                 |
-|**Progressive Enhancement**       |                   |               |               |                  |                |                 |
-|**Markdown**                      | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Website Building**              | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Publishing website**            | ![done][done]     |               |               |                  |                |                 |
-|**Bootstrap**                     | ![done][done]     |               |               |                  |                |                 |
-|**Command line**                  | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Node.js**                       | ![done][done]     |               |               |                  |                |                 |
-|**NPM**                           | ![done][done]     |               |               |                  |                |                 |
-|**Open Source Contribution**      |                   |               |               |                  |                |                 |
-|**Angular 4**                     | ![done][done]     |               |               |                  |                |                 |
-|**NPM scripts**                   |                   |               |               |                  |                |                 |
-|**One day some will be like this**| ![done][done]     | ![done][done] | ![done][done] | ![done][done]    | ![done][done]  | ![done][done]   |
+|               Skill              | 1<br>Introduction      | 2<br>Basics        | 3<br>Good          | 4<br>Pretty Good      | 5<br>Confident      | 6<br>Awesome         |
+|:-------------------------------- |:----------------------:|:------------------:|:------------------:|:---------------------:|:-------------------:|:--------------------:|
+|**HTML5**                         | :white_check_mark:     | :white_check_mark: | :white_check_mark: |                       |                     |                      |
+|**CSS3**                          | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**JavaScript**                    | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**ES6**                           | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**React**                         | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Redux**                         |                        |                    |                    |                       |                     |                      |
+|**Backbone**                      |                        |                    |                    |                       |                     |                      |
+|**Git**                           | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Git bash**                      |                        |                    |                    |                       |                     |                      |
+|**GitHub**                        | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Bitbucket**                     |                        |                    |                    |                       |                     |                      |
+|**Gulp/Webpack**                  |                        |                    |                    |                       |                     |                      |
+|**Agile**                         | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Stylus**                        |                        |                    |                    |                       |                     |                      |
+|**Working with APIs**             |                        |                    |                    |                       |                     |                      |
+|**jQuery**                        | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Css Grid & Flex-box**           | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Responsive design**             | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Mobile first**                  | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Progressive Enhancement**       |                        |                    |                    |                       |                     |                      |
+|**Markdown**                      | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Website Building**              | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Publishing website**            | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Bootstrap**                     | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Command line**                  | :white_check_mark:     | :white_check_mark: |                    |                       |                     |                      |
+|**Node.js**                       | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**NPM**                           | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**Open Source Contribution**      |                        |                    |                    |                       |                     |                      |
+|**Angular 4**                     | :white_check_mark:     |                    |                    |                       |                     |                      |
+|**NPM scripts**                   |                        |                    |                    |                       |                     |                      |
+|**One day some will be like this**| :white_check_mark:     | :white_check_mark: | :white_check_mark: | :white_check_mark:    | :white_check_mark:  | :white_check_mark:   |
 
 
 ----
@@ -84,105 +95,192 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 [//]: # (Status images)
 
-[Completed]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Completed"
-[In Progress]: https://user-images.githubusercontent.com/29199184/34462881-7305ddac-ee4d-11e7-9b57-589424820da4.png "In Progress"
-[Soon]: https://user-images.githubusercontent.com/29199184/34462916-d5c37bd4-ee4d-11e7-9f4a-d57f2243281b.png "Soon"
-[under]: https://github.com/duxiaoan/My-Learning-Tracker-1/blob/master/IMGBIN_construction-stock-illustration-brick-png_93R4fKmY.png "under"
+#### Legend:
+:battery: -  In progress
 
-|            Status           |   Year   | Course                                                          |                Tutor                        |
-|:---------------------------:|:---------|:----------------------------------------------------------------|:-------------------------------------------:|
-| ![In Progress][In Progress] |          | [My Curriculum - freeCodeCamp.org]                              | [freeCodeCamp.org]                              |
-| ![Completed][Completed]     | Oct 2019 | [Curso Grátis de JavaScript]                                    | [Curso em Vídeo]                          |
-| ![Completed][Completed]     | Feb 2019 | [The Complete JavaScript Handbook]                              | [Flavio Copes]                              |
-| ![Completed][Completed]     | Jan 2019 | [JavaScript clean code guide]                                   | [Ryan McDermott]                            |
-| ![Completed][Completed]     | Aug 2018 | [Front-End Web Developer Nanodegree]                            | [Udacity] - Google Scholarship              |
-| ![Completed][Completed]     | Feb 2018 | [The Beginner's Guide to Reactjs]                               | [Kent C Dodds] - [egghead.io]               |
-| ![Completed][Completed]     | Jan 2018 | [Google Developer Challenge Scholarship] - Web Developer        | [Udacity]                                   |
-| ![Completed][Completed]     | 2017     | [Workflow Tools for Web Developers]                             | [Christina Truong] - [Lynda.com]            |
-| ![Completed][Completed]     | 2017     | [Learning Git and GitHub]                                       | [Ray Villalobos] - [Lynda.com]              |
-| ![Completed][Completed]     | 2017     | [CSS Essential Training 3]                                      | [Christina Truong] - [Lynda.com]            |
-| ![Completed][Completed]     | 2017     | [CSS Essential Training 2]                                      | [Christina Truong] - [Lynda.com]            |
-| ![Completed][Completed]     | 2017     | [Getting Your Website Online]                                   | [Christina Truong] - [Lynda.com]            |
-| ![Completed][Completed]     | 2017     | [Learn Enough Command Line to Be Dangerous]                     | [Michael Hartl]                             |
-| ![Completed][Completed]     | 2017     | [Basic Front End Development Projects]                          | [Free Code Camp]                            |
-| ![Completed][Completed]     | 2017     | [The Web Developer Bootcamp - Frond End]                        | Colt Steele - [Udemy]                       |
-| ![In Progress][In Progress] |          | [JavaScript and React for Developers]                           | [Cassidy Williams] - [Udemy]                |
-| ![In Progress][In Progress] |          | [Front End Development]                                         | [Free Code Camp]                            |
-| ![In Progress][In Progress] |          | [JavaScript30]                                                  | [Wes Bos]                                   |
-| ![Soon][Soon]               |          | Read JavaScript: The Good Parts                                 | Douglas Crockford                           |
+:hourglass_flowing_sand: - Soon
+
+:white_check_mark: - Completed
+
+### Courses and Certifications
+
+|            Status           |   Year   | Course                                                                           |                Tutor                        |
+|:---------------------------:|:--------:|:--------------------------------------------------------------------------------:|:-------------------------------------------:|
+| :battery:                   |          | [Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas]          | [UniCV]                                     |
+| :battery:                   |          | [The Web Developer Bootcamp 2026]                                                | Colt Steele - [Udemy]                       |
+| :battery:                   |          | [Angular - The Complete Guide (2025 Edition)]                                    | Maximilian Schwarzmüller - [Udemy]          |
+| :battery:                   |          | [Front End Development]                                                          | [Free Code Camp]                            |
+| :battery:                   |          | [JavaScript30]                                                                   | [Wes Bos]                                   |
+| :hourglass_flowing_sand:    |          | Read JavaScript: The Good Parts                                                  | Douglas Crockford                           |
+| :hourglass_flowing_sand:    |          | [CSS Demystified!]                                                               | [KP] - Kevin Powell                         |
+| :white_check_mark:          | Dec 2025 | [CS50’s Introduction to Programming with Python]                                 | [Harvard - CS50]                            |
+| :white_check_mark:          | Jan 2025 | [DataViz - Power BI - Visionário]                                                | [Banco do Brasil]                           |
+| :white_check_mark:          | Jan 2025 | [Engenharia de Dados - Visionário]                                               | [Banco do Brasil]                           |
+| :white_check_mark:          | Jan 2025 | [Inteligência Artificial e Ciência de Dados - Visionário]                        | [Banco do Brasil]                           |
+| :white_check_mark:          | Jan 2025 | [Web Analytics - Visionário]                                                     | [Banco do Brasil]                           |
+| :white_check_mark:          | Dec 2024 | [Legacy JavaScript Algorithms and Data Structures]                               | [freeCodeCamp.org]                          |
+| :white_check_mark:          | Jun 2024 | [SAS Education Brasil | SAS® Guide para Iniciantes]                              | [SAS]                                       |
+| :white_check_mark:          | Nov 2023 | [Scrum]                                                                          | [Alura]                                     |
+| :white_check_mark:          | Aug 2023 | [Linguaskill English C1 (CEFR)]                                                  | [Cambridge University Press & Assessment]   |
+| :white_check_mark:          | Mar 2022 | [GO: DESENVOLVENDO UMA API REST]                                                 | [Alura]                                     |
+| :white_check_mark:          | Feb 2022 | [GO: INICIANDO COM A LINGUAGEM DO GOOGLE]                                        | [Alura]                                     |
+| :white_check_mark:          | Oct 2025 | [Aprendizado contínuo: desenvolvendo o perfil de lifelong learner]               | [Alura]                                     |                                            
+| :white_check_mark:          | Aug 2025 | [Métricas Ágeis: como medir resultados em um Ambiente Ágil]                      | [Alura]                                     |                                     
+| :white_check_mark:          | Aug 2025 | [Apache Airflow: orquestrando seu primeiro pipeline de dados]                    | [Alura]                                     |                                       
+| :white_check_mark:          | Jul 2025 | [OKR: construindo metas ágeis]                                                   | [Alura]                                     |        
+| :white_check_mark:          | Jul 2025 | [IA: explorando o potencial da inteligência artificial generativa]               | [Alura]                                     |                                            
+| :white_check_mark:          | May 2025 | [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD]                | [Alura]                                     |                                           
+| :white_check_mark:          | Jan 2025 | [Kanban: análises para implementação]                                            | [Alura]                                     |               
+| :white_check_mark:          | Jan 2025 | [Git e GitHub: compartilhando e colaborando em projetos]                         | [Alura]                                     |                                  
+| :white_check_mark:          | Jan 2025 | [Transformação Digital: inicie a implementação do movimento]                     | [Alura]                                     |                                      
+| :white_check_mark:          | Jan 2025 | [Gestão Ágil: explorando conceitos da agilidade]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Jan 2025 | [Comunicação inclusiva e vieses inconscientes]                                   | [Alura]                                     |                        
+| :white_check_mark:          | Jan 2025 | [UX Research: metodologias e imersão em pesquisa]                                | [Alura]                                     |                           
+| :white_check_mark:          | Nov 2024 | [Lógica de programação: praticando com desafios]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Nov 2024 | [Lógica de programação: explore funções e listas]                                | [Alura]                                     |                           
+| :white_check_mark:          | Nov 2024 | [Lógica de programação: mergulhe em programação com JavaScript]                  | [Alura]                                     |                                         
+| :white_check_mark:          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |                       
+| :white_check_mark:          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |                       
+| :white_check_mark:          | Nov 2024 | [Machine Learning: classificação por trás dos panos]                             | [Alura]                                     |                              
+| :white_check_mark:          | Nov 2024 | [Estatística com Python: probabilidade e amostragem]                             | [Alura]                                     |                              
+| :white_check_mark:          | Nov 2024 | [Estatística com Python: frequências e medidas]                                  | [Alura]                                     |                         
+| :white_check_mark:          | Nov 2024 | [Python para Dados: trabalhando com funções, estruturas de dados e exceções]     | [Alura]                                     |                                                      
+| :white_check_mark:          | Oct 2024 | [Python para Dados: primeiros passos]                                            | [Alura]                                     |               
+| :white_check_mark:          | Oct 2024 | [ChatGPT: otimizando a qualidade dos resultados]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Oct 2024 | [ChatGPT: desvendando a IA em conversas e suas aplicações]                       | [Alura]                                     |                                    
+| :white_check_mark:          | Jun 2024 | [SQL com MySQL: manipule e consulte dados]                                       | [Alura]                                     |                    
+| :white_check_mark:          | Apr 2024 | [Angular: formulários orientados a templates]                                    | [Alura]                                     |                       
+| :white_check_mark:          | Apr 2024 | [Angular: ciclo de vida]                                                         | [Alura]                                     |  
+| :white_check_mark:          | Feb 2024 | [TypeScript na prática: implemente um projeto completo com TypeScript e módulos] | [Alura]                                     |                                                          
+| :white_check_mark:          | Feb 2024 | [TypeScript: o paradigma funcional no front-end]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Feb 2024 | [TypeScript: aplicando orientação a objetos no Front-end]                        | [Alura]                                     |                                   
+| :white_check_mark:          | Feb 2024 | [TypeScript parte 2: avançando na linguagem]                                     | [Alura]                                     |                      
+| :white_check_mark:          | Jan 2024 | [Angular 14: evoluindo a aplicação]                                              | [Alura]                                     |             
+| :white_check_mark:          | Nov 2023 | [Scrum: agilidade em seu projeto]                                                | [Alura]                                     |           
+| :white_check_mark:          | Oct 2023 | [Organização de Equipes Ágeis: os papéis existentes em uma equipe]               | [Alura]                                     |                                            
+| :white_check_mark:          | Sep 2023 | [Liderança: práticas de gestão e melhorias]                                      | [Alura]                                     |                     
+| :white_check_mark:          | Sep 2023 | [Liderança: aprendendo sobre a missão e propósito de liderar pessoas]            | [Alura]                                     |                                               
+| :white_check_mark:          | Sep 2023 | [Delegação de tarefas: obtenha o melhor do seu time]                             | [Alura]                                     |                              
+| :white_check_mark:          | Sep 2023 | [Liderança ambidestra: buscando inovação e resultados]                           | [Alura]                                     |                                
+| :white_check_mark:          | Sep 2023 | [Curiosidade, persistência e resiliência: da ideia à ação]                       | [Alura]                                     |                                    
+| :white_check_mark:          | Sep 2023 | [A Empresa Ágil: implemente o Business Agility nas organizações]                 | [Alura]                                     |                                          
+| :white_check_mark:          | Sep 2023 | [OKR: direcionando seu negócio para resultados]                                  | [Alura]                                     |                         
+| :white_check_mark:          | Sep 2023 | [Design Thinking: viabilizando soluções]                                         | [Alura]                                     |                  
+| :white_check_mark:          | Sep 2023 | [Data Science: analise e visualização de dados]                                  | [Alura]                                     |                         
+| :white_check_mark:          | Sep 2023 | [Transformação organizacional: Lean-Ágil além da TI]                             | [Alura]                                     |                              
+| :white_check_mark:          | Aug 2023 | [JavaScript: explorando a linguagem]                                             | [Alura]                                     |              
+| :white_check_mark:          | Aug 2023 | [NodeMcu e Esp8266: medindo e publicando dados com MQTT]                         | [Alura]                                     |                                  
+| :white_check_mark:          | Aug 2023 | [Gestão Ágil: liderando a mudança em um ambiente de agilidade]                   | [Alura]                                     |                                        
+| :white_check_mark:          | Aug 2023 | [Comunicação estratégica na liderança: como engajar e influenciar pessoas]       | [Alura]                                     |                                                    
+| :white_check_mark:          | Aug 2023 | [Feedback: a arte de orientar e ser orientado com sentido]                       | [Alura]                                     |                                    
+| :white_check_mark:          | Jul 2023 | [Comunicação: como se expressar bem e ser compreendido]                          | [Alura]                                     |                                 
+| :white_check_mark:          | Jun 2023 | [Produtividade parte 1: estratégias para o dia a dia]                            | [Alura]                                     |                               
+| :white_check_mark:          | Apr 2023 | [Customer Success: cultura centrada em cliente]                                  | [Alura]                                     |                         
+| :white_check_mark:          | Feb 2023 | [Dashboard com Power BI: visualizando dados]                                     | [Alura]                                     |                      
+| :white_check_mark:          | Jan 2023 | [Go: Orientação a Objetos]                                                       | [Alura]                                     |    
+| :white_check_mark:          | Jan 2023 | [Typescript parte 3: mais técnicas e boas práticas]                              | [Alura]                                     |                             
+| :white_check_mark:          | Jan 2023 | [Go: crie uma aplicação web]                                                     | [Alura]                                     |      
+| :white_check_mark:          | Jan 2023 | [Go: a linguagem do Google]                                                      | [Alura]                                     |     
+| :white_check_mark:          | Dec 2022 | [Design Thinking em vendas: conhecendo seu cliente]                              | [Alura]                                     |                             
+| :white_check_mark:          | Oct 2022 | [Agilidade: promovendo a transformação ágil]                                     | [Alura]                                     |                      
+| :white_check_mark:          | Sep 2022 | [Vendas de alta performance: gestão de carteira]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Sep 2022 | [Vendas de alta performance: técnicas para melhorar seu aprendizado]             | [Alura]                                     |                                              
+| :white_check_mark:          | Sep 2022 | [Vendas de alta performance: prospecção de clientes]                             | [Alura]                                     |                              
+| :white_check_mark:          | Sep 2022 | [Vendas de alta performance: entendendo a necessidade do cliente]                | [Alura]                                     |                                           
+| :white_check_mark:          | Aug 2022 | [Vendas de alta performance: perguntas poderosas]                                | [Alura]                                     |                           
+| :white_check_mark:          | Aug 2022 | [Vendas de alta performance: Pitch e dicas de negociação]                        | [Alura]                                     |                                   
+| :white_check_mark:          | Aug 2022 | [Estratégias de Customer Success: foco no cliente]                               | [Alura]                                     |                            
+| :white_check_mark:          | Jul 2022 | [Vendas de alta performance: solução e proposta]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Jul 2022 | [Vendas de alta performance: vendas na era digital]                              | [Alura]                                     |                             
+| :white_check_mark:          | Jul 2022 | [TypeScript Part 1: Evolving Your JavaScript]                                    | [Alura]                                     |                       
+| :white_check_mark:          | May 2022 | [JavaScript: programando a Orientação a Objetos]                                 | [Alura]                                     |                          
+| :white_check_mark:          | Apr 2022 | [Python para Data Science]                                                       | [Alura]                                     |    
+| :white_check_mark:          | Mar 2022 | [Go: desenvolvendo uma API Rest]                                                 | [Alura]                                     |          
+| :white_check_mark:          | Feb 2022 | [Mindset Digital: técnicas e habilidades para liderança remota]                  | [Alura]                                     |                                         
+| :white_check_mark:          | Jan 2022 | [Comunicação não violenta parte 2: mantendo a empatia]                           | [Alura]                                     |                                
+| :white_check_mark:          | Jan 2022 | [Comunicação não violenta: consciência para agir]                                | [Alura]                                     |                           
+| :white_check_mark:          | Jan 2022 | [Comunicação assertiva: reduzindo conflitos e frustrações]                       | [Alura]                                     |                                    
+| :white_check_mark:          | Aug 2021 | [Modelagem de banco de dados: NoSQL]                                             | [Alura]                                     |              
+| :white_check_mark:          | Aug 2021 | [Design: desenvolvendo o seu portfólio]                                          | [Alura]                                     |                 
+| :white_check_mark:          | Aug 2021 | [Scraping com Python: coleta de dados na web]                                    | [Alura]                                     |                       
+| :white_check_mark:          | Aug 2021 | [Aprender a aprender: técnicas para seu autodesenvolvimento]                     | [Alura]                                     |                                      
+| :white_check_mark:          | Aug 2021 | [Redis I: armazenando chaves e valores]                                          | [Alura]                                     |                 
+| :white_check_mark:          | Jul 2021 | [UX: entenda a experiência de usuário]                                           | [Alura]                                     |
+| :white_check_mark:          | Nov 2021 | [Certificate for Conquering Responsive Layouts]                                  | [KP] - Kevin Powell                         |
+| :white_check_mark:          | Aug 2021 | [Aprender a Aprender: Técnicas para seu autodesenvolvimento]                     | [Alura]                                     |
+| :white_check_mark:          | Aug 2021 | [Modelagem de banco de dados: Começando com NoSQL]                               | [Alura]                                     |
+| :white_check_mark:          | Aug 2021 | [Redis I: Armazenando chaves e valores]                                          | [Alura]                                     |
+| :white_check_mark:          | Aug 2021 | [Scraping com Python: Coleta de dados na web]                                    | [Alura]                                     |
+| :white_check_mark:          | Jul 2021 | [Fundamentos de UX: Entenda a experiência de usuário]                            | [Alura]                                     |
+| :white_check_mark:          | Mar 2021 | [HTML for Designers]                                                             | [Uxcel]                                     |
+| :white_check_mark:          | Mar 2021 | [UI Components Best Practices]                                                   | [Uxcel]                                     |
+| :white_check_mark:          | Feb 2021 | [Accessibility]                                                                  | [Uxcel]                                     |
+| :white_check_mark:          | Feb 2021 | [What is Graphic Design?]                                                        | [LinkedIn]                                  |
+| :white_check_mark:          | Jan 2021 | [Common Patterns]                                                                | [Uxcel]                                     |
+| :white_check_mark:          | Jan 2021 | [Design Composition]                                                             | [Uxcel]                                     |
+| :white_check_mark:          | Jan 2021 | [Responsive Web Design]                                                          | [freeCodeCamp.org]                          |
+| :white_check_mark:          | Jan 2021 | [UI Components]                                                                  | [Uxcel]                                     |
+| :white_check_mark:          | Dec 2020 | [CS50x]                                                                          | [Harvard - CS50]                            |
+| :white_check_mark:          | Oct 2020 | [CS50’s Understanding Technology]                                                | [Harvard - CS50]                            |
+| :white_check_mark:          | Aug 2020 | [UX/UI Design Foundations]                                                       | [Uxcel]                                     |
+| :white_check_mark:          | Oct 2019 | [Curso Grátis de JavaScript]                                                     | [Curso em Vídeo]                            |
+| :white_check_mark:          | May 2016 | [Fluência Duolingo em Inglês: Proficiente (estimativa)]                          | [Duolingo]                                  |                
 
 [//]: # (Reference links to courses)
 
-[My Curriculum - freeCodeCamp.org]: https://www.freecodecamp.org
-[The Complete JavaScript Handbook]: https://medium.freecodecamp.org/the-complete-javascript-handbook-f26b2c71719c
-[JavaScript clean code guide]: https://github.com/ryanmcdermott/clean-code-javascript
-[Front-End Web Developer Nanodegree]: https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
-[JavaScript and React for Developers]: https://www.udemy.com/js-and-react-for-devs/
+
 [You Don't know JavaScript]: https://github.com/getify/You-Dont-Know-JS
-[Workflow Tools for Web Developers]: https://www.lynda.com/Web-Design-tutorials/Workflow-Tools-Web-Development/533305-2.html
-[Learning Git and GitHub]: https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html
-[CSS Essential Training 3]: https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-3/609030-2.html
-[CSS Essential Training 2]: https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html
-[Getting Your Website Online]: https://www.lynda.com/Web-Development-tutorials/Getting-Your-Website-Online/609031-2.html
-[Learn Enough Command Line to Be Dangerous]: https://www.learnenough.com/command-line-tutorial
-[Basic Front End Development Projects]: https://www.freecodecamp.org/syknapse
-[The Web Developer Bootcamp - Frond End]: https://www.udemy.com/the-web-developer-bootcamp
-[The Web Developer Bootcamp - Back End]: https://www.udemy.com/the-web-developer-bootcamp
-[Front End Development]: https://www.freecodecamp.org/syknapse
 [Google Developer Challenge Scholarship]: https://www.udacity.com/google-scholarships
-[JavaScript30]: https://javascript30.com/
-[JavaScript & jQuery]: http://javascriptbook.com/
-[Eloquent JavaScript]: http://eloquentjavascript.net/
-[Learn CSS Grid]: https://scrimba.com/g/gR8PTE
-[The Beginner's Guide to Reactjs]: https://egghead.io/courses/the-beginner-s-guide-to-reactjs
 [Curso Grátis de JavaScript]: https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+[Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas]:https://unicv.edu.br/courses/analise_e_desenvolvimento_de_sistemas_ead/
+[CS50’s Introduction to Programming with Python]: https://cs50.harvard.edu/python/2022/
+[CS50x]:https://cs50.harvard.edu/x/
+[CS50’s Understanding Technology]:https://cs50.harvard.edu/tech/2020/
+[CSS Demystified!]: https://courses.kevinpowell.co/courses/css-demystified
 
 [//]: # (Reference links to tutors)
 
 [freeCodeCamp.org]: https://www.freecodecamp.org 
 [Curso em Vídeo]: https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
-[Kyle Simpson]: https://twitter.com/getify
-[Flavio Copes]: https://twitter.com/flaviocopes
-[Ryan McDermott]: https://github.com/ryanmcdermott
-[Cassidy Williams]: https://twitter.com/cassidoo
-[Christina Truong]: https://twitter.com/christinatruong
-[Lynda.com]: https://www.lynda.com
-[Ray Villalobos]: https://twitter.com/planetoftheweb
-[Michael Hartl]: https://twitter.com/mhartl
-[Free Code Camp]: https://www.freecodecamp.org
 [Udemy]: https://www.udemy.com
+[Alura]: https://www.alura.com.br
 [Udacity]: https://www.udacity.com
-[Wes Bos]: https://twitter.com/wesbos
-[Marijn Haverbeke]: https://twitter.com/MarijnJH
-[Per Harald Borgen]: https://twitter.com/perborgen
 [Scrimba]: https://scrimba.com/
-[Kent C Dodds]: https://egghead.io/instructors/kentcdodds
-[egghead.io]: https://egghead.io/
+[Banco do Brasil]:https://www.bb.com.br
+[Harvard - CS50]:https://cs50.harvard.edu/x/
+[Uxcel]:https://uxcel.com
+[UniCV]:https://unicv.edu.br
+[LinkedIn]:https://www.linkedin.com/learning/
+[Cambridge University Press & Assessment]:https://www.cambridge.org/gb/cambridge-university-press-assessment/
+[KP]:https://courses.kevinpowell.co/products/home
+[SAS]:https://www.sas.com/en_us/home.html
+
+### Books to Read 
+|            Status           |   Year   | Book                                                                       |                Author                       |
+|:---------------------------:|:--------:|:--------------------------------------------------------------------------:|:-------------------------------------------:|
+| :battery:                   |          | LExpressões Regulares - Uma abordagem divertida                            | Aurélio Marinho Jargas                      |
+| :battery:                   |          | Learning Go:An Idiomatic Approach to Real-World Go Programming             | Jon Bodner                                  |
+| :hourglass_flowing_sand:    |          | [How We Learn]                                                             | Stoyan Stefanov                             |
+| :hourglass_flowing_sand:    |          | [How to Take Smart Notes]                                                  | Sönke Ahrens                                |
+| :hourglass_flowing_sand:    |          | [How to Read a Book]                                                       | Mortimer J. Adler and Charles Van Doren     |
+| :hourglass_flowing_sand:    |          | [A High-Performing Mind]                                                   | Dr. John Arden                              |
+| :hourglass_flowing_sand:    |          | [Deep Work]                                                                | Cal Newport                                 |
+| :hourglass_flowing_sand:    |          | [Atomic Habits]                                                            | James Clear                                 |
+| :hourglass_flowing_sand:    |          | [The Construction of Social Reality]                                       | John R. Searle                              |
+| :hourglass_flowing_sand:    |          | [Flow: The Psychology of Optimal Experience]                               | Mihaly Csikszentmihalyi                     |
+| :hourglass_flowing_sand:    |          | [How to Read a Book]                                                       | Mortimer J. Adler and Charles Van Doren     |
+| :hourglass_flowing_sand:    |          | [The Math of Life and Death]                                               | Kit Yates                                   |
+| :hourglass_flowing_sand:    |          | [Essencialismo]                                                            | Greg McKeown                                |
+| :hourglass_flowing_sand:    |          | [A arte de ligar o *]                                                      | Mark Manson                                 |
+| :hourglass_flowing_sand:    |          | [O poder do hábito]                                                        | James Clear                                 |
+| :hourglass_flowing_sand:    |          | [Mindset: A nova psicologia do sucesso]                                    | Carol Dweck                                 |
+| :hourglass_flowing_sand:    |          | [Rápido e devagar: duas formas de pensar]                                  | Daniel Kahneman                             |
+| :white_check_mark:          | 
+
+
 
 ### Paths
 
-| Paths with multiple resources                             |            Author            |
-|:----------------------------------------------------------|:----------------------------:|
-| [33 concepts every JavaScript developer should know]      | [Leonardo Maldonado]         |
-| [Best JavaScript books, tutorials, courses & videos]      | [ReactDOM]                   |
-| [Learn to code in 2018]                                   | [Andrei Neagoie]             |
-| [Get Job ready - JavaScript Edition]                      | [P1xt]                       |
-| [Full Stack Web Developer Path]                           | [Shovan Chatterjee]          |
-
-[//]: # (Reference links to paths)
-
-[33 concepts every JavaScript developer should know]: https://github.com/leonardomso/33-js-concepts
-[Best JavaScript books, tutorials, courses & videos]: https://reactdom.com/blog/javascript-books
-[Learn to code in 2018]: https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a
-[Get Job ready - JavaScript Edition]: https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md
-[Full Stack Web Developer Path]: https://github.com/shovanch/fullstack-web-developer-path
-
-[//]: # (Reference links to authors)
-[Leonardo Maldonado]: https://github.com/leonardomso
-[ReactDOM]: https://reactdom.com
-[Andrei Neagoie]: https://twitter.com/AndreiNeagoie
-[P1xt]: https://github.com/P1xt
-[Shovan Chatterjee]: https://github.com/shovanch
 
 ----
 
@@ -208,46 +306,27 @@ I'm currently interested in/excited about:
 
 ----
 
-## Web Development Checklist
+## Full Stack Web Developer Bucket List
 
-This is a list of basic objectives to meet on the road to mastering web development.
+This is inspired by the article [Ginny Fahs'](https://twitter.com/ginnyfahs) ["Things Real Developers Do: My Bucket List"](https://blog.prototypr.io/wondering-if-youre-a-real-developer-yet-try-making-a-bucket-list-281275482155)
+But its updated to reflect more modern web development practices in early 2026.
 
-It is an almost exact copy of [Ginny Fahs'](https://twitter.com/ginnyfahs) ["Things Real Developers Do: My Bucket List"](https://blog.prototypr.io/wondering-if-youre-a-real-developer-yet-try-making-a-bucket-list-281275482155)
+
+[**View Full Stack Web Developer Bucket List**](bucketList.md)
 
 
-* [x] Open the computer’s terminal
-* [x] Use a text editor (bonus points if you have a specific reason for choosing it)
-* [x] Use some keyboard shortcuts
-* [x] Write tests for your code
-* [x] Help another web developer with something they’re having trouble with
-* [x] Attend an event about web development
-* [x] Follow developers you admire on social media
-* [x] Read a book about coding
-* [x] Open your browser console
-* [x] Get data from an API
-* [ ] Hide API keys from the public
-* [x] Post a question on Stack Overflow
-* [x] Push code to GitHub or GitLab or BitBucket
-* [ ] Speak about something web development-related at an event
-* [x] Complete a technical interview
-* [x] Participate in a hackathon
-* [x] Deploy a project
-* [ ] Ship your project to a store
-* [ ] Contribute to open source
-* [x] Get paid to code
-* [x] When people ask what you do, respond saying you’re a developer :)
 
 ----
 
 If you find this useful for your own needs you are welcome to fork a copy, customise it or even give it a star.
 
-**You can [follow me on Twitter](https://twitter.com/Syknapse "@Syknapse") or [get in touch](https://syknapse.github.io/Syk-Houdeib/#contact "My contact section | Portfolio")**
+**You can [follow me on Twitter](https://x.com/duar_ch) or [get in touch](https://duar.ch "My contact section | Portfolio")**
 
 ----
 
 ### Acknowledgments
 
-This has been partly inspired by [Shovan Chatterjee](https://twitter.com/shovan_ch) and his wonderful [Full Stack Web Developer Path](https://github.com/shovanch/fullstack-web-developer-path) project. And of course by [Alexander Kallaway's](https://twitter.com/ka11away) very motivational [#100DaysOfCode challenge](https://github.com/Kallaway/100-days-of-code) and the great and supportive community around it.
+This has been partly inspired by [Syk Houdeib](https://x.com/duar_ch) and his wonderful [My-Learning-Tracker](https://github.com/Syknapse/My-Learning-Tracker) project. 
 
 ### License
 

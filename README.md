@@ -260,9 +260,9 @@ A complete log of my web development skills, learning, resources, highlights, in
 |:---------------------------:|:--------:|:--------------------------------------------------------------------------:|:-------------------------------------------:|
 | :battery:                   |          | LExpressões Regulares - Uma abordagem divertida                            | Aurélio Marinho Jargas                      |
 | :battery:                   |          | Learning Go:An Idiomatic Approach to Real-World Go Programming             | Jon Bodner                                  |
-| :hourglass_flowing_sand:    |          | [How We Learn]                                                             | Stanislas Dehaene                           |
-| :hourglass_flowing_sand:    |          | [How to Take Smart Notes]                                                  | Sönke Ahrens                                |
-| :hourglass_flowing_sand:    |          | [How to Read a Book]                                                       | Mortimer J. Adler and Charles Van Doren     |
+| :hourglass_flowing_sand:    |          | [How We Learn](https://www.google.com.br/books/edition/_/jSNvEAAAQBAJ?hl=pt-BR) | Stanislas Dehaene                           |
+| :hourglass_flowing_sand:    |          | [How to Take Smart Notes](https://www.google.com.br/books/edition/_/BGaPEQAAQBAJ?hl=pt-BR) | Sönke Ahrens                                |
+| :hourglass_flowing_sand:    |          | [How to Read a Book](https://www.google.com.br/books/edition/_/1aJxEQAAQBAJ?hl=pt-BR) | Mortimer J. Adler and Charles Van Doren     |
 | :hourglass_flowing_sand:    |          | [A High-Performing Mind]                                                   | Andrew D. Thompson                          |
 | :hourglass_flowing_sand:    |          | [Deep Work]                                                                | Cal Newport                                 |
 | :hourglass_flowing_sand:    |          | [Atomic Habits]                                                            | James Clear                                 |

@@ -260,22 +260,21 @@ A complete log of my web development skills, learning, resources, highlights, in
 |:---------------------------:|:--------:|:--------------------------------------------------------------------------:|:-------------------------------------------:|
 | :battery:                   |          | LExpressões Regulares - Uma abordagem divertida                            | Aurélio Marinho Jargas                      |
 | :battery:                   |          | Learning Go:An Idiomatic Approach to Real-World Go Programming             | Jon Bodner                                  |
-| :hourglass_flowing_sand:    |          | [How We Learn]                                                             | Stoyan Stefanov                             |
+| :hourglass_flowing_sand:    |          | [How We Learn]                                                             | Stanislas Dehaene                           |
 | :hourglass_flowing_sand:    |          | [How to Take Smart Notes]                                                  | Sönke Ahrens                                |
 | :hourglass_flowing_sand:    |          | [How to Read a Book]                                                       | Mortimer J. Adler and Charles Van Doren     |
-| :hourglass_flowing_sand:    |          | [A High-Performing Mind]                                                   | Dr. John Arden                              |
+| :hourglass_flowing_sand:    |          | [A High-Performing Mind]                                                   | Andrew D. Thompson                          |
 | :hourglass_flowing_sand:    |          | [Deep Work]                                                                | Cal Newport                                 |
 | :hourglass_flowing_sand:    |          | [Atomic Habits]                                                            | James Clear                                 |
 | :hourglass_flowing_sand:    |          | [The Construction of Social Reality]                                       | John R. Searle                              |
 | :hourglass_flowing_sand:    |          | [Flow: The Psychology of Optimal Experience]                               | Mihaly Csikszentmihalyi                     |
-| :hourglass_flowing_sand:    |          | [How to Read a Book]                                                       | Mortimer J. Adler and Charles Van Doren     |
 | :hourglass_flowing_sand:    |          | [The Math of Life and Death]                                               | Kit Yates                                   |
 | :hourglass_flowing_sand:    |          | [Essencialismo]                                                            | Greg McKeown                                |
 | :hourglass_flowing_sand:    |          | [A arte de ligar o *]                                                      | Mark Manson                                 |
-| :hourglass_flowing_sand:    |          | [O poder do hábito]                                                        | James Clear                                 |
+| :hourglass_flowing_sand:    |          | [O poder do hábito]                                                        | Charles Duhigg                              |
 | :hourglass_flowing_sand:    |          | [Mindset: A nova psicologia do sucesso]                                    | Carol Dweck                                 |
 | :hourglass_flowing_sand:    |          | [Rápido e devagar: duas formas de pensar]                                  | Daniel Kahneman                             |
-| :white_check_mark:          | 
+| :white_check_mark:          |          |                                                                            |                                             | 
 
 
 

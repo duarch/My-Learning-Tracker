@@ -2,6 +2,14 @@
 
 ## Abordagem Selecionada: Minimalismo Moderno com Tipografia Forte
 
+## Transformar esse repositorio para fazer deploy automatico no github pages usando @astrojs/svelte
+
+A proposta é que eu possa alterar o conteudo markdown e fazer deploy automatico no github pages usando astrojs com svelte.
+Criar um site simples, rapido e elegante para acompanhar meu aprendizado.
+Criar um arquivo markdown chamado manutencao.md para registrar todas as alteracoes feitas no site.
+Ser possivel incluir novas seções facilmente no markdown.
+Ter um controle maior do design visual do site usando css customizado.
+
 ### Design Movement
 **Modernismo Suíço + Minimalismo Contemporâneo** - Inspirado em interfaces de ferramentas de produtividade como Notion, Linear e Obsidian. Foco em clareza, hierarquia visual forte e funcionalidade elegante.
 
@@ -55,3 +63,4 @@
 - ✅ Cards com sombras suaves
 - ✅ Badges para status visual
 - ✅ Transições suaves e discretas
+

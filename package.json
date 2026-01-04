@@ -65,7 +65,7 @@
     "wouter": "^2.8.6",
     "react-markdown": "^8.0.0",
     "remark-gfm": "^3.0.0",
-    "remark-breaks": "^3.0.0",
+    "remark-breaks": "^3.0.0"
   },
   "devDependencies": {
     "@builder.io/vite-plugin-jsx-loc": "^0.1.1",

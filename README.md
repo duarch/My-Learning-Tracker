@@ -1,39 +1,82 @@
 # My Learning Tracker
 
-This repository contains a minimal static site built with Astro and Svelte that uses Markdown files as the canonical content source.
+A minimal, markdown-driven learning tracker site built with Astro and Svelte. Track courses, goals, and learning progress with a clean, minimalist design.
 
-## Local development
+## Features
 
-- Install dependencies: `npm install`
-- Run dev server: `npm run dev` (visit http://localhost:4321)
-- Build for production: `npm run build`
-- Preview build locally: `npm run preview`
+✨ **Dark/Light Mode** — Theme toggle in sidebar persisted to browser localStorage  
+✓ **Functional Checkboxes** — Check off completed items; state saves to browser  
+📱 **Responsive Design** — Adapts from desktop sidebar layout to mobile horizontal nav  
+🎨 **Swiss Minimalism** — Typography-first design with teal accent and neutral palette  
+⚡ **Instant Deploy** — Push to `main` → GitHub Actions auto-builds and deploys to Pages
 
-## Content
+## Local Development
 
-All site content is in the `content/` folder as Markdown files. Add or edit markdown files there and push to `main` to update the site.
+```bash
+npm install              # Install dependencies
+npm run dev              # Start dev server (http://localhost:4321)
+npm run build            # Build for production
+npm run preview          # Preview production build locally
+```
 
-Key files:
-- `content/home.md` — main page content
-- `content/bucket-list.md` — checklist and bucket list
-- `content/goals.md` — roadmap and goals
-- `content/ideas.md` — design ideas and principles
-- `content/manutencao.md` — maintenance log (changes and notes)
+## Content Structure
 
-Pages are automatically generated for each main markdown file and are available at:
-- `/` (Home)
-- `/goals`
-- `/bucket-list`
-- `/ideas`
-- `/manutencao`
+All content lives in the `content/` folder as Markdown files:
+
+- **`content/tracker.md`** — Main page with courses, certifications, and learning progress
+- **`content/goals.md`** — Career objectives and skill roadmap  
+- **`content/bucket-list.md`** — Checklist and future plans
+
+Edit these files and push to `main` to update the site automatically.
+
+## How to Edit Content
+
+### Add or update courses/goals
+Edit the markdown tables in `content/tracker.md` (or other files):
+```markdown
+| ✓ | 2025 | [Course Name](link) | Source |
+| ⚡ | | [In Progress Course](link) | Source |
+| ⏳ | | [Coming Soon](link) | Source |
+```
+
+Use these status indicators:
+- `✓` = Completed
+- `⚡` = In progress  
+- `⏳` = Planned/soon
+
+### Mark checkboxes
+Click checkboxes in tables to toggle completion. Your selections are saved in browser localStorage (device-specific, not synced to repo).
+
+### Add a new page
+See **MAINTENANCE.md** for detailed instructions on adding new pages to the sidebar.
 
 ## Deployment
 
-The project is set up to deploy to GitHub Pages via GitHub Actions on push to `main`. The workflow builds the site and publishes the `dist/` output to GitHub Pages.
+Automatic deployment to GitHub Pages:
+1. Push changes to `main` branch
+2. GitHub Actions workflow automatically builds the site
+3. Site updates within ~1-2 minutes at https://duarch.github.io/My-Learning-Tracker/
 
-If your repo uses a project page (username.github.io/<repo>), `astro.config.mjs` already sets `base` to `/My-Learning-Tracker/`. Adjust `base` and `site` in `astro.config.mjs` if needed.
+No manual deployment steps needed — Git push triggers everything.
+
+## Maintenance
+
+See **MAINTENANCE.md** for:
+- Content editing guide
+- How to add new pages  
+- Design system and styling info
+- Change log
+
+## Design
+
+- **Colors**: Neutral palette (light mode) with teal accent (#0ea5a5)  
+- **Typography**: Inter font with hierarchy (H1: 36px, H2: 28px, body: 15px)
+- **Layout**: Fixed 220px sidebar; responsive at 768px breakpoint
+- **Theme**: Light/dark mode toggle with localStorage persistence
 
 ## Notes
 
-- Design follows a minimal, typographic-first approach. Styles live in `src/layouts/Layout.astro` and can be extended.
-- Emojis in content were normalized to text for accessibility and consistency.
+- **Checkboxes persist locally** — State is saved in browser localStorage for the current device only. Refreshing the page preserves your selections.
+- **Theme preference saved** — Your light/dark mode choice is remembered across sessions.
+- **Design Ideas** — Philosophy and design principles documented in `content/ideas.md`
+- **Maintenance log** — Track changes and updates in `MAINTENANCE.md`

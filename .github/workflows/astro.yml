@@ -86,7 +86,7 @@ jobs:
       - name: Build with Vite
         env:
           GITHUB_PAGES: 'true'
-        run: pnpm build
+        run: ${{ steps.detect-package-manager.outputs.runner }} pnpm build
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Upload artifact

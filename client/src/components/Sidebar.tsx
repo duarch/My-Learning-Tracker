@@ -1,6 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useLocation } from 'wouter';
+import ThemeToggle from './ThemeToggle';
 
 interface NavItem {
   label: string;
@@ -82,8 +83,11 @@ export default function Sidebar() {
         </nav>
 
         {/* Footer */}
-        <div className="p-4 border-t border-sidebar-border text-xs text-muted-foreground">
-          <p>© 2026 My Learning Tracker</p>
+        <div className="p-4 border-t border-sidebar-border space-y-4">
+          <div className="flex items-center justify-center">
+            <ThemeToggle />
+          </div>
+          <p className="text-xs text-muted-foreground text-center">© 2026 My Learning Tracker</p>
         </div>
       </aside>
 

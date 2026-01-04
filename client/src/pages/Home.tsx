@@ -1,5 +1,6 @@
 import { BookOpen, Target, Zap, Trophy } from 'lucide-react';
 import Layout from '@/components/Layout';
+import MarkdownContent from '@/components/MarkdownContent';
 import { useEffect, useState } from 'react';
 
 interface ContentCard {
@@ -92,17 +93,12 @@ export default function Home() {
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
           </div>
         ) : (
-          <div className="prose prose-sm max-w-none dark:prose-invert">
-            {/* Extract main content from README, skipping the header */}
-            <div
-              dangerouslySetInnerHTML={{
-                __html: readmeContent
-                  .split('\n')
-                  .slice(5)
-                  .join('\n'),
-              }}
-            />
-          </div>
+          <MarkdownContent
+            content={readmeContent
+              .split('\n')
+              .slice(5)
+              .join('\n')}
+          />
         )}
       </div>
     </Layout>

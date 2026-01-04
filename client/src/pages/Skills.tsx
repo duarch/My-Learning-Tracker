@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
+import MarkdownContent from '@/components/MarkdownContent';
 import { Loader2 } from 'lucide-react';
 
 export default function Skills() {
@@ -31,13 +32,7 @@ export default function Skills() {
           <Loader2 className="animate-spin" size={32} />
         </div>
       ) : (
-        <div className="prose prose-sm max-w-none dark:prose-invert">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: content,
-            }}
-          />
-        </div>
+        <MarkdownContent content={content} />
       )}
     </Layout>
   );

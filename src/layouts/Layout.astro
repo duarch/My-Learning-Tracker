@@ -1,22 +1,61 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>My Learning Tracker</title>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <nav>
+          <h1 class="brand">My Learning</h1>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/goals">Goals</a></li>
+            <li><a href="/bucket-list">Bucket List</a></li>
+            <li><a href="/ideas">Design Ideas</a></li>
+            <li><a href="/manutencao">Maintenance</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <slot />
+        <footer class="footer">© 2026 — My Learning Tracker</footer>
+      </main>
+    </div>
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  :root{
+    --bg: #ffffff;
+    --muted: #f4f6f8;
+    --text: #0b1220;
+    --muted-text: #6b7280;
+    --accent: #0ea5a5; /* teal-ish */
+    --max-width: 980px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+  .app{display:flex;min-height:100vh;background:var(--bg);color:var(--text)}
+  .sidebar{width:220px;padding:28px 20px;border-right:1px solid #eef2f7;background:var(--muted)}
+  .brand{font-size:18px;margin:0 0 20px;font-weight:700}
+  .sidebar ul{list-style:none;padding:0;margin:0}
+  .sidebar a{color:var(--text);text-decoration:none;display:block;padding:8px 0;border-radius:6px}
+  .sidebar a:hover{background:rgba(14,165,165,0.06);color:var(--accent)}
+  .content{flex:1;padding:36px;max-width:var(--max-width);margin:0 auto}
+  .footer{margin-top:48px;color:var(--muted-text);font-size:13px}
+
+  @media (max-width:720px){
+    .app{flex-direction:column}
+    .sidebar{width:100%;display:flex;padding:12px 16px}
+    .sidebar nav{display:flex;width:100%}
+    .sidebar ul{display:flex;gap:12px;overflow:auto}
+    .sidebar a{padding:6px 8px}
+    .content{padding:20px}
+  }
 </style>

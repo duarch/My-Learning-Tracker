@@ -1,12 +1,14 @@
-# Astro Starter Kit: Basics
+---
+title: "Home"
+date: 2026-01-04
+tags: [home, site]
+---
 
-```sh
-npm create astro@latest -- --template basics
-```
+# Welcome to My Learning Tracker
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This site is driven by simple Markdown files in the `content/` folder. Edit a Markdown file, push, and the site will be rebuilt and deployed to GitHub Pages.
 
-## 🚀 Project Structure
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 

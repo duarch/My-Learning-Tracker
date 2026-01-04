@@ -1,8 +1,14 @@
-# 🎯 Full-Stack Developer Career Roadmap (6–12 Months)
+---
+title: "Full-Stack Developer Career Roadmap (6–12 Months)"
+date: 2026-01-04
+tags: [roadmap, goals]
+---
+
+# Full-Stack Developer Career Roadmap (6–12 Months)
 
 ---
 
-## 🗓 Months 1–3: Solidify Foundations & Confidence
+## Months 1–3: Solidify Foundations & Confidence
 
 **Goal:** Become fully comfortable shipping small full-stack features alone.
 
@@ -34,7 +40,7 @@
 
 ---
 
-## 🗓 Months 4–6: Ownership & Production Thinking
+## Months 4–6: Ownership & Production Thinking
 
 **Goal:** Move from “it works” → “it works reliably”.
 
@@ -69,7 +75,7 @@
 
 ---
 
-## 🗓 Months 7–12: Impact, Leadership & Senior Signals
+## Months 7–12: Impact, Leadership & Senior Signals
 
 **Goal:** Demonstrate *senior behaviors*, even without the title.
 
@@ -103,11 +109,11 @@
 
 ---
 
-# 🪣 Personal Full-Stack Developer Bucket List (2026)
+# Personal Full-Stack Developer Bucket List (2026)
 
 This is your **“proof I’m a developer” list**, inspired by the original article — but modern and personal.
 
-### 🚀 Build & Ship
+### Build & Ship
 
 * [ ] Build a full-stack app from scratch
 * [ ] Deploy it with a custom domain
@@ -116,7 +122,7 @@ This is your **“proof I’m a developer” list**, inspired by the original ar
 * [ ] Break production and fix it
 * [ ] Ship at least one meaningful update
 
-### 🛠 Workflow Mastery
+### Workflow Mastery
 
 * [ ] Use Git without fear
 * [ ] Resolve a painful merge conflict
@@ -124,7 +130,7 @@ This is your **“proof I’m a developer” list**, inspired by the original ar
 * [ ] Write documentation someone thanks you for
 * [ ] Automate something boring
 
-### 🤖 AI Collaboration
+### AI Collaboration
 
 * [ ] Use AI to explore a new codebase
 * [ ] Catch a bug AI introduced
@@ -151,7 +157,7 @@ This is your **“proof I’m a developer” list**, inspired by the original ar
 
 ---
 
-## 🧠 How to Track This (Important)
+## How to Track This (Important)
 
 * Turn this into:
 

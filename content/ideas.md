@@ -1,69 +1,75 @@
-# Design Ideas - My Learning Tracker
+---
+title: "Design Ideas — My Learning Tracker"
+date: 2026-01-04
+tags: [design, ux, layout]
+---
 
-## Abordagem Selecionada: Minimalismo Moderno com Tipografia Forte
+# Design Ideas — My Learning Tracker
 
-### Transformar esse repositorio para fazer deploy automatico no github pages usando @astrojs/svelte
+## Selected approach: Modern minimalism with strong typography
 
-#### TODO
+### Turn this repository into an auto-deploy site on GitHub Pages using Astro + Svelte
 
-- Os arquivos markdown serao a base do conteudo do site. O principal é o README.md que ja contem a estrutura basica do site. Os bucketlist.md e goals.md sao auxiliares.
-- A proposta é que eu possa alterar o conteudo markdown e fazer deploy automatico no github pages usando astrojs com svelte.
-- Criar um site simples, rapido e elegante para acompanhar meu aprendizado.
-- Criar um arquivo markdown chamado manutencao.md para registrar todas as alteracoes feitas no site.
-- Ser possivel incluir novas seções facilmente no markdown.
-- Ter um controle maior do design visual do site usando css customizado.
+#### Goals
+
+- Markdown files will be the canonical content source: `content/home.md` (main site content), `content/bucket-list.md`, and `content/goals.md`.
+- Allow content editing in markdown and automatic deployment to GitHub Pages using Astro with Svelte.
+- Build a simple, fast, and elegant site to track learning progress.
+- Add a `content/manutencao.md` (maintenance) file to record site changes and migrations.
+- Make it easy to add new sections by adding markdown files.
+- Use custom CSS for tighter visual control.
 
 ### Design Movement
-**Modernismo Suíço + Minimalismo Contemporâneo** - Inspirado em interfaces de ferramentas de produtividade como Notion, Linear e Obsidian. Foco em clareza, hierarquia visual forte e funcionalidade elegante.
+**Swiss Modernism + Contemporary Minimalism** — Inspired by productivity tools like Notion, Linear and Obsidian. Focused on clarity, strong typographic hierarchy, and elegant functionality.
 
 ### Core Principles
-1. **Hierarquia através de Tipografia**: Usar contraste de pesos e tamanhos para guiar o olhar, não cores vibrantes
-2. **Espaço Negativo Intencional**: Amplo espaçamento entre seções para respiração visual e foco
-3. **Funcionalidade Transparente**: Interface desaparece, conteúdo é o protagonista
-4. **Consistência Estrutural**: Grid baseado em 8px, proporções harmônicas
+1. **Hierarchy through typography**: Use contrast in size and weight to guide the eye rather than bright colors.
+2. **Intentional negative space**: Generous spacing between sections for visual breathing room.
+3. **Transparent functionality**: UI should be unobtrusive so content is the focus.
+4. **Structural consistency**: 8px rhythm grid and harmonic proportions.
 
 ### Color Philosophy
-- **Palette Principal**: Tons neutros (cinza, branco, preto) com accent em azul/teal sutil
-- **Reasoning**: Reduz fadiga visual, permite que o conteúdo brilhe, transmite profissionalismo
-- **Emotional Intent**: Confiança, clareza, foco, modernidade
+- **Primary palette**: Neutral tones (gray, white, black) with a subtle blue/teal accent.
+- **Rationale**: Reduces visual fatigue, lets content shine, communicates professionalism.
+- **Emotional intent**: Confidence, clarity, focus, modernity.
 
 ### Layout Paradigm
-- **Sidebar Navigation Fixa**: Menu à esquerda com categorias principais (Learning, Skills, Highlights, Bucket List)
-- **Content Area Assimétrica**: Conteúdo principal com largura variável, cards com espaçamento generoso
-- **Mobile-First**: Sidebar colapsável em mobile, layout em coluna única
+- **Fixed sidebar navigation**: Left menu with main categories (Learning, Skills, Highlights, Bucket List).
+- **Asymmetrical content area**: Main content with variable width and roomy cards.
+- **Mobile-first**: Collapsible sidebar on mobile; single-column layout.
 
 ### Signature Elements
-1. **Linha Divisória Minimalista**: Separadores sutis em cinza claro (não bordas pesadas)
-2. **Badges de Status**: Ícones/badges para indicar progresso (em progresso, concluído, em breve)
-3. **Cards Elevados**: Sombras suaves (não drop shadows pesadas), hover effects discretos
+1. **Minimal dividers**: Subtle light-gray separators rather than heavy borders.
+2. **Status badges**: Small badges to indicate progress (in-progress, completed, upcoming).
+3. **Elevated cards**: Soft shadows with subtle hover effects.
 
 ### Interaction Philosophy
-- **Transições Suaves**: Fade-ins e slides suaves (200-300ms)
-- **Hover States Sutis**: Mudança de cor de fundo leve, não transformações grandes
-- **Feedback Imediato**: Indicadores visuais para estados interativos
+- **Smooth transitions**: Fade-ins and light slide-ups (200–300ms).
+- **Subtle hovers**: Slight background color changes; no large transforms.
+- **Immediate feedback**: Visual indicators for interactive states.
 
 ### Animation
-- **Entrance**: Fade-in + slide-up leve (200ms) para cards ao carregar
-- **Hover**: Mudança de background color (50ms), elevação sutil de sombra
-- **Transitions**: Todas as mudanças de estado com easing suave (cubic-bezier)
+- **Entrance**: Fade-in + slight slide-up (200ms) for cards on load.
+- **Hover**: Quick background color shift (~50ms) and subtle elevation.
+- **Transitions**: Use gentle easing (cubic-bezier) for state changes.
 
 ### Typography System
-- **Display Font**: "Geist" ou "Sohne" (sans-serif moderno, bold para títulos)
-- **Body Font**: "Inter" ou "Geist" (sans-serif limpo, 400-500 para corpo)
+- **Display**: "Geist" or "Sohne" (modern sans, bold for titles).
+- **Body**: "Inter" or "Geist" (clean sans, 400–500 weight for body text).
 - **Hierarchy**:
-  - H1: 32-36px, weight 700, line-height 1.2
-  - H2: 24-28px, weight 600, line-height 1.3
-  - Body: 14-16px, weight 400, line-height 1.6
-  - Small: 12-13px, weight 500, line-height 1.5
+  - H1: 32–36px, 700, line-height 1.2
+  - H2: 24–28px, 600, line-height 1.3
+  - Body: 14–16px, 400, line-height 1.6
+  - Small: 12–13px, 500, line-height 1.5
 
 ---
 
-## Design Decisions Aplicadas
-- ✅ Sidebar navigation para organização clara
-- ✅ Palette neutra com accent azul
-- ✅ Tipografia forte (Geist/Inter)
-- ✅ Espaçamento generoso
-- ✅ Cards com sombras suaves
-- ✅ Badges para status visual
-- ✅ Transições suaves e discretas
+## Applied Design Decisions
+- ✓ Fixed sidebar navigation for clear organization
+- ✓ Neutral palette with a subtle blue accent
+- ✓ Strong typography (Geist/Inter)
+- ✓ Generous spacing
+- ✓ Soft-shadowed cards
+- ✓ Status badges for visual progress
+- ✓ Subtle, smooth transitions
 

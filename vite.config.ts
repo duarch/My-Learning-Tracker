@@ -8,7 +8,11 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
+const base = isGitHubPages ? '/My-Learning-Tracker/' : '/';
+
 export default defineConfig({
+  base,
   plugins,
   resolve: {
     alias: {

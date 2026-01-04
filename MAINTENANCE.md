@@ -1,6 +1,6 @@
 # Guia de Manutenção - My Learning Tracker
 
-Este documento descreve como manter, atualizar e fazer deploy do projeto My Learning Tracker construído com Astro, React 19 e Tailwind CSS 4.
+Este documento descreve como manter, atualizar e fazer deploy do projeto My Learning Tracker construído com React 19 e Tailwind CSS 4.
 
 ## 📋 Índice
 
@@ -19,6 +19,8 @@ O projeto segue uma arquitetura moderna baseada em componentes React com roteame
 
 ```
 astro-learning-tracker/
+├── .github/workflows/       # GitHub Actions workflows
+│   └── deploy.yml           # Workflow de deploy automático
 ├── client/
 │   ├── public/              # Arquivos estáticos (Markdown, imagens)
 │   │   ├── README.md
@@ -225,6 +227,34 @@ Isso cria:
 - `dist/public/` - Arquivos estáticos (HTML, CSS, JS)
 - `dist/index.js` - Servidor Node.js para produção
 
+### Deploy em GitHub Pages (Automático com GitHub Actions)
+
+O projeto está configurado com um workflow automático de GitHub Actions que faz deploy automático a cada push para a branch `master` ou `main`. Não é necessário fazer nada manualmente!
+
+**Configuração Automática:**
+
+O arquivo `.github/workflows/deploy.yml` está pré-configurado com:
+
+- Build automático usando pnpm
+- Base URL ajustada para `/My-Learning-Tracker/` durante o build
+- Deploy automático para a branch `gh-pages`
+- Cada push para `master` ou `main` dispara o workflow automaticamente
+
+**Ativar GitHub Pages:**
+
+1. Vá para **Settings** → **Pages**
+2. Em "Source", selecione **Deploy from a branch**
+3. Selecione a branch **gh-pages** (criada automaticamente pelo workflow)
+4. Clique em **Save**
+
+Seu site estará disponível em `https://duarch.github.io/My-Learning-Tracker/` em poucos minutos!
+
+**Monitorar Deploy:**
+
+1. Vá para a aba **Actions** do seu repositório
+2. Veja o histórico de deploys e logs de build
+3. Cada workflow mostra o status: ✅ sucesso ou ❌ erro
+
 ### Deploy em Vercel
 
 Vercel oferece deploy automático gratuito:
@@ -248,30 +278,6 @@ Netlify também oferece deploy gratuito:
    - **Build command:** `pnpm build`
    - **Publish directory:** `dist/public`
 5. Clique em "Deploy site"
-
-### Deploy em GitHub Pages
-
-Para fazer deploy em GitHub Pages:
-
-1. Edite `vite.config.ts` e adicione a base URL:
-
-```typescript
-export default defineConfig({
-  base: '/My-Learning-Tracker/',
-  // ... resto da configuração
-});
-```
-
-2. Execute:
-
-```bash
-pnpm build
-git add dist/
-git commit -m "chore: build for GitHub Pages"
-git push origin main
-```
-
-3. Vá para Settings → Pages → Source: Deploy from a branch → Branch: main, folder: /dist
 
 ---
 
@@ -324,6 +330,16 @@ Para atualizar uma dependência específica:
 pnpm add nome-do-pacote@latest
 ```
 
+### GitHub Actions workflow falha
+
+**Problema:** Deploy não funciona automaticamente
+
+**Solução:** Verifique:
+1. Se a branch está em `master` ou `main`
+2. Se o arquivo `.github/workflows/deploy.yml` existe
+3. Os logs na aba **Actions** para ver o erro específico
+4. Se o repositório é público (necessário para GitHub Pages gratuito)
+
 ---
 
 ## 📚 Recursos Úteis
@@ -333,6 +349,7 @@ pnpm add nome-do-pacote@latest
 - [Guia Markdown](https://www.markdownguide.org)
 - [OKLCH Color Space](https://oklch.space)
 - [Vite Documentation](https://vitejs.dev)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
 
 ---
 

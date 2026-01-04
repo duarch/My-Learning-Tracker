@@ -22,36 +22,36 @@ Use this scale for each item:
 
 ### Core Development
 
-* [ ] Use Git daily (clone, branch, commit, push, pull)
-* [ ] Resolve simple merge conflicts
-* [ ] Understand how frontend talks to backend (HTTP, JSON)
-* [ ] Build a basic frontend (React / Vue / Angular / similar)
-* [ ] Build a basic backend API (Node, Python, Java, etc.)
-* [ ] Connect backend to a database (CRUD)
-* [ ] Use environment variables locally
+* 🟡 Use Git daily (clone, branch, commit, push, pull)
+* 🟡 Resolve simple merge conflicts
+* [x] Understand how frontend talks to backend (HTTP, JSON)
+* [x] Build a basic frontend (React / Vue / Angular / similar)
+* [x] Build a basic backend API (Node, Python, Java, etc.)
+* [x] Connect backend to a database (CRUD)
+* [x] Use environment variables locally
 * [ ] Read stack traces and error messages
 * [ ] Write basic unit tests
-* [ ] Use browser dev tools (network, console)
+* [x] Use browser dev tools (network, console)
 
 ### Tooling & Workflow
 
-* [ ] Use a code editor intentionally (extensions, formatting)
-* [ ] Run apps locally using setup instructions
-* [ ] Use package managers (npm, pip, etc.)
-* [ ] Follow an existing project structure
-* [ ] Ask good technical questions
+* [x] Use a code editor intentionally (extensions, formatting)
+* [x] Run apps locally using setup instructions
+* [x] Use package managers (npm, pip, etc.)
+* [x] Follow an existing project structure
+* [x] Ask good technical questions
 
 ### Deployment (Intro)
 
-* [ ] Deploy a project to the internet (even if simple)
-* [ ] Understand what breaks when deploying vs local
-* [ ] Use GitHub (repo, README, issues)
+* [x] Deploy a project to the internet (even if simple)
+* [x] Understand what breaks when deploying vs local
+* [x] Use GitHub (repo, README, issues)
 
 ### Mindset
 
-* [ ] Accept you don’t know much *yet*
-* [ ] Can explain your project to another person
-* [ ] Say “I’m learning full-stack development” confidently
+* [x] Accept you don’t know much *yet*
+* [x] Can explain your project to another person
+* [x] Say “I’m learning full-stack development” confidently
 
 ✓ **If most are ✔ or 🟡 → you are legitimately a Junior Full-Stack Dev**
 

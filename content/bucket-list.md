@@ -1,6 +1,12 @@
 
 
-# 🧩 Full-Stack Developer — Self-Assessment Checklist (2026)
+---
+title: "Full-Stack Developer — Self-Assessment Checklist"
+date: 2026-01-04
+tags: [checklist, career]
+---
+
+# Full-Stack Developer — Self-Assessment Checklist (2026)
 
 Use this scale for each item:
 
@@ -10,7 +16,7 @@ Use this scale for each item:
 
 ---
 
-## 🟢 Junior Full-Stack Developer
+## Junior Full-Stack Developer
 
 **Focus:** Foundations, learning how things connect end-to-end.
 
@@ -47,11 +53,11 @@ Use this scale for each item:
 * [ ] Can explain your project to another person
 * [ ] Say “I’m learning full-stack development” confidently
 
-✅ **If most are ✔ or 🟡 → you are legitimately a Junior Full-Stack Dev**
+✓ **If most are ✔ or 🟡 → you are legitimately a Junior Full-Stack Dev**
 
 ---
 
-## 🟡 Mid-Level Full-Stack Developer
+## Mid-Level Full-Stack Developer
 
 **Focus:** Ownership, reliability, working independently.
 
@@ -105,7 +111,7 @@ Use this scale for each item:
 
 ---
 
-## 🔵 Senior Full-Stack Developer
+## Senior Full-Stack Developer
 
 **Focus:** Impact, leadership, long-term thinking.
 
@@ -165,7 +171,7 @@ Use this scale for each item:
 
 ---
 
-## 🧠 How to Use This Checklist
+## How to Use This Checklist
 
 * You **do not** need 100% ✔ to be at a level
 * 🟡 items are *normal* — they show growth areas
@@ -176,7 +182,6 @@ Use this scale for each item:
 
 ## Final Reality Check
 
-> **You are not promoted by learning tools.
-> You level up by taking responsibility.**
+> **You are not promoted by learning tools. You level up by taking responsibility.**
 
 

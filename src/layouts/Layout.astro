@@ -1,3 +1,8 @@
+---
+const base = Astro.site?.pathname ?? '/';
+const href = (path = '') => `${base}${path}`.replace(/\/+/g, '/');
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,11 +18,10 @@
         <nav>
           <h1 class="brand">My Learning</h1>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/goals">Goals</a></li>
-            <li><a href="/bucket-list">Bucket List</a></li>
-            <li><a href="/ideas">Design Ideas</a></li>
-            <li><a href="/manutencao">Maintenance</a></li>
+            <li><a href={href('')}>Tracker</a></li>
+            <li><a href={href('goals')}>Goals</a></li>
+            <li><a href={href('bucket-list')}>Bucket List</a></li>
+            <li><a href={href('ideas')}>Design Ideas</a></li>
           </ul>
         </nav>
       </aside>

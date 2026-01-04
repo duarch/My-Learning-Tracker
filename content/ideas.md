@@ -15,7 +15,7 @@ tags: [design, ux, layout]
 - Markdown files will be the canonical content source: `content/home.md` (main site content), `content/bucket-list.md`, and `content/goals.md`.
 - Allow content editing in markdown and automatic deployment to GitHub Pages using Astro with Svelte.
 - Build a simple, fast, and elegant site to track learning progress.
-- Add a `content/manutencao.md` (maintenance) file to record site changes and migrations.
+- Add a `maintenance.md` file to give me instructions and notes on maintaining the site.
 - Make it easy to add new sections by adding markdown files.
 - Use custom CSS for tighter visual control.
 

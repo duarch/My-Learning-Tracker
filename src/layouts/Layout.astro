@@ -28,12 +28,6 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         --header-height: 64px;
       }
 
-      html {
-        transition:
-          background-color 0.4s ease,
-          color 0.4s ease;
-      }
-
       html.light {
         --bg: #f9fafb;
         --surface: #ffffff;
@@ -69,28 +63,48 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         z-index: 100;
       }
 
+      .brand-mobile {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      /* Hamburger – agora vira X corretamente */
       .hamburger {
-        width: 28px;
-        height: 28px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
         display: grid;
         place-items: center;
+        position: relative;
       }
 
       .hamburger span {
-        width: 22px;
+        width: 24px;
         height: 2px;
         background: var(--text);
         border-radius: 2px;
-        transition: all 0.3s ease;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: absolute;
       }
 
-      .hamburger span:nth-child(1) { transform: translateY(-7px); }
-      .hamburger span:nth-child(3) { transform: translateY(7px); }
+      .hamburger span:nth-child(1) { top: 9px; }
+      .hamburger span:nth-child(2) { top: 14px; }
+      .hamburger span:nth-child(3) { top: 19px; }
 
-      .hamburger.active span:nth-child(1) { transform: rotate(45deg) translateY(0); }
-      .hamburger.active span:nth-child(2) { opacity: 0; }
-      .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translateY(0); }
+      /* Estado ativo → X */
+      .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 14px;
+      }
+
+      .hamburger.active span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 14px;
+      }
 
       /* ================= Sidebar ================= */
       aside {
@@ -106,7 +120,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         flex-direction: column;
         gap: 32px;
         z-index: 90;
-        transition: transform 0.35s ease;
+        transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
       }
 
       .brand {
@@ -222,6 +236,16 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
           display: flex;
         }
 
+        /* Toggle no header mobile */
+        .mobile-theme-toggle {
+          display: flex;
+        }
+
+        /* Esconde toggle da sidebar em mobile */
+        .sidebar-footer .theme-toggle {
+          display: none;
+        }
+
         aside {
           transform: translateX(-100%);
         }
@@ -235,10 +259,6 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
           margin-left: 0 !important;
         }
 
-        .brand {
-          font-size: 20px;
-        }
-
         article {
           padding: 24px;
         }
@@ -248,6 +268,11 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         main {
           margin-left: var(--sidebar-width);
         }
+
+        .mobile-header,
+        .mobile-theme-toggle {
+          display: none;
+        }
       }
     </style>
   </head>
@@ -255,13 +280,21 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
   <body>
     <!-- Mobile Header -->
     <header class="mobile-header">
-      <div class="hamburger" id="hamburger">
+      <div class="hamburger" id="hamburger" aria-label="Abrir menu">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="brand">My Learning</div>
-      <div style="width: 28px;"></div> <!-- spacer -->
+
+      <div class="brand-mobile">My Learning</div>
+
+      <!-- Theme toggle no canto direito (apenas mobile) -->
+      <label class="theme-toggle mobile-theme-toggle">
+        <input type="checkbox" id="theme-toggle" />
+        <div class="toggle-track">
+          <div class="toggle-thumb"></div>
+        </div>
+      </label>
     </header>
 
     <!-- Sidebar -->
@@ -278,8 +311,9 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
 
       <div class="sidebar-footer">
         <span>© 2026</span>
+        <!-- Toggle visível só no desktop -->
         <label class="theme-toggle">
-          <input type="checkbox" id="theme-toggle" />
+          <input type="checkbox" id="theme-toggle-desktop" />
           <div class="toggle-track">
             <div class="toggle-thumb"></div>
           </div>
@@ -306,7 +340,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         sidebar.classList.toggle("open");
       });
 
-      // Fechar sidebar ao clicar em link (mobile)
+      // Fecha menu ao clicar em link (mobile)
       document.querySelectorAll("nav a").forEach(link => {
         link.addEventListener("click", () => {
           if (window.innerWidth <= 768) {
@@ -316,29 +350,34 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         });
       });
 
-      // Theme toggle
-      const toggle = document.getElementById("theme-toggle");
+      // Theme toggle (usamos o mesmo checkbox em mobile e desktop)
+      const toggleMobile = document.getElementById("theme-toggle");
+      const toggleDesktop = document.getElementById("theme-toggle-desktop");
       const html = document.documentElement;
 
       const savedTheme = localStorage.getItem("theme") || "dark";
 
-      if (savedTheme === "light") {
-        html.classList.add("light");
-        toggle.checked = true;
-      } else {
-        html.classList.remove("light");
-        toggle.checked = false;
-      }
-
-      toggle.addEventListener("change", () => {
-        if (toggle.checked) {
+      const setTheme = (isLight) => {
+        if (isLight) {
           html.classList.add("light");
           localStorage.setItem("theme", "light");
         } else {
           html.classList.remove("light");
           localStorage.setItem("theme", "dark");
         }
-      });
+        // Sincroniza ambos os checkboxes
+        toggleMobile.checked = isLight;
+        if (toggleDesktop) toggleDesktop.checked = isLight;
+      };
+
+      // Estado inicial
+      setTheme(savedTheme === "light");
+
+      // Eventos
+      toggleMobile.addEventListener("change", () => setTheme(toggleMobile.checked));
+      if (toggleDesktop) {
+        toggleDesktop.addEventListener("change", () => setTheme(toggleDesktop.checked));
+      }
     </script>
   </body>
 </html>

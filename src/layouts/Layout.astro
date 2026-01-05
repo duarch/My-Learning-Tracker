@@ -87,9 +87,15 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         position: absolute;
       }
 
-      .hamburger span:nth-child(1) { top: 9px; }
-      .hamburger span:nth-child(2) { top: 14px; }
-      .hamburger span:nth-child(3) { top: 19px; }
+      .hamburger span:nth-child(1) {
+        top: 9px;
+      }
+      .hamburger span:nth-child(2) {
+        top: 14px;
+      }
+      .hamburger span:nth-child(3) {
+        top: 19px;
+      }
 
       /* Estado ativo → X */
       .hamburger.active span:nth-child(1) {
@@ -154,6 +160,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
 
       .sidebar-footer {
         margin-top: auto;
+        margin-bottom: 2.5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -193,8 +200,8 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       }
 
       .toggle-track {
-        width: 56px;
-        height: 28px;
+        width: 55px;
+        height: 25px;
         background: #1b73ed;
         border-radius: 999px;
         padding: 4px;
@@ -205,7 +212,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       .toggle-thumb {
         width: 24px;
         height: 24px;
-        background: #87b0ea;
+        background: #a7c0e4;
         border-radius: 50%;
         display: grid;
         place-items: center;
@@ -274,6 +281,29 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
           display: none;
         }
       }
+
+      /* Markdown basics */
+      h1,
+      h2,
+      h3 {
+        letter-spacing: -0.02em;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      tr:hover td {
+        background: var(--accent-soft);
+      }
     </style>
   </head>
 
@@ -341,7 +371,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       });
 
       // Fecha menu ao clicar em link (mobile)
-      document.querySelectorAll("nav a").forEach(link => {
+      document.querySelectorAll("nav a").forEach((link) => {
         link.addEventListener("click", () => {
           if (window.innerWidth <= 768) {
             hamburger.classList.remove("active");
@@ -374,9 +404,13 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       setTheme(savedTheme === "light");
 
       // Eventos
-      toggleMobile.addEventListener("change", () => setTheme(toggleMobile.checked));
+      toggleMobile.addEventListener("change", () =>
+        setTheme(toggleMobile.checked)
+      );
       if (toggleDesktop) {
-        toggleDesktop.addEventListener("change", () => setTheme(toggleDesktop.checked));
+        toggleDesktop.addEventListener("change", () =>
+          setTheme(toggleDesktop.checked)
+        );
       }
     </script>
   </body>

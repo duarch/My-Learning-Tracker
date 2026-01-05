@@ -10,7 +10,7 @@ tags: [checklist, career]
 
 Use this scale for each item:
 
-* ✔ **I do this confidently**
+* ✅ **I do this confidently**
 * 🟡 **I’ve done it with help / inconsistently**
 * ✖ **Not yet**
 

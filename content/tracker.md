@@ -10,6 +10,26 @@ tags: [tracker]
 
 A complete log of my web development skills, learning, resources, highlights, interests, and everything to do with my learning. It's a way to keep track, organise, and share my learning.
 
+
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [My Learning Tracker](#my-learning-tracker)
+  - [My objective is learn core concepts to become a Senior Full Stack Developer](#my-objective-is-learn-core-concepts-to-become-a-senior-full-stack-developer)
+  - [My Next Step](#my-next-step)
+  - [Learning](#learning)
+    - [Courses and Certifications](#courses-and-certifications)
+    - [Books to Read](#books-to-read)
+    - [Paths](#paths)
+  - [Skills](#skills)
+  - [Highlights](#highlights)
+  - [Interesting Links](#interesting-links)
+  - [Full Stack Web Developer Bucket List](#full-stack-web-developer-bucket-list)
+    - [Acknowledgments](#acknowledgments)
+    - [License](#license)
+
+<!-- TOC end -->
+
+
 ## My objective is learn core concepts to become a Senior Full Stack Developer
 
 **To be considered a senior full stack developer:**
@@ -59,7 +79,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 ⏳ - Soon
 
-✓ - Completed
+✅ - Completed
 
 ### Courses and Certifications
 
@@ -74,118 +94,118 @@ A complete log of my web development skills, learning, resources, highlights, in
 | ⏳    |          | [Go - The Complete Guide]                                                        | Maximilian Schwarzmüller - [Udemy]          |
 | ⏳    |          | [MBA (pós-graduação) em Análise de dados e BIG Data]                             | [Uni Alphaville]                            |
 | ⏳    |          | [CSS Demystified!]                                                               | [KP] - Kevin Powell                         |
-| ✓          | Dec 2025 | [CS50’s Introduction to Programming with Python]                                 | [Harvard - CS50]                            |
-| ✓          | Jan 2025 | [DataViz - Power BI - Visionário]                                                | [Banco do Brasil]                           |
-| ✓          | Jan 2025 | [Engenharia de Dados - Visionário]                                               | [Banco do Brasil]                           |
-| ✓          | Jan 2025 | [Inteligência Artificial e Ciência de Dados - Visionário]                        | [Banco do Brasil]                           |
-| ✓          | Jan 2025 | [Web Analytics - Visionário]                                                     | [Banco do Brasil]                           |
-| ✓          | Dec 2024 | [Legacy JavaScript Algorithms and Data Structures]                               | [freeCodeCamp.org]                          |
-| ✓          | Jun 2024 | [SAS Education Brasil - SAS® Guide para Iniciantes]                              | [SAS]                                       |
-| ✓          | Nov 2023 | [Scrum]                                                                          | [Alura]                                     |
-| ✓          | Aug 2023 | [Linguaskill English C1 (CEFR)]                                                  | [Cambridge University Press & Assessment]   |
-| ✓          | Mar 2022 | [GO: DESENVOLVENDO UMA API REST]                                                 | [Alura]                                     |
-| ✓          | Feb 2022 | [GO: INICIANDO COM A LINGUAGEM DO GOOGLE]                                        | [Alura]                                     |
-| ✓          | Oct 2025 | [Aprendizado contínuo: desenvolvendo o perfil de lifelong learner]               | [Alura]                                     |
-| ✓          | Aug 2025 | [Métricas Ágeis: como medir resultados em um Ambiente Ágil]                      | [Alura]                                     |
-| ✓          | Aug 2025 | [Apache Airflow: orquestrando seu primeiro pipeline de dados]                    | [Alura]                                     |
-| ✓          | Jul 2025 | [OKR: construindo metas ágeis]                                                   | [Alura]                                     |
-| ✓          | Jul 2025 | [IA: explorando o potencial da inteligência artificial generativa]               | [Alura]                                     |
-| ✓          | May 2025 | [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD]                | [Alura]                                     |
-| ✓          | Jan 2025 | [Kanban: análises para implementação]                                            | [Alura]                                     |
-| ✓          | Jan 2025 | [Git e GitHub: compartilhando e colaborando em projetos]                         | [Alura]                                     |
-| ✓          | Jan 2025 | [Transformação Digital: inicie a implementação do movimento]                     | [Alura]                                     |
-| ✓          | Jan 2025 | [Gestão Ágil: explorando conceitos da agilidade]                                 | [Alura]                                     |
-| ✓          | Jan 2025 | [Comunicação inclusiva e vieses inconscientes]                                   | [Alura]                                     |
-| ✓          | Jan 2025 | [UX Research: metodologias e imersão em pesquisa]                                | [Alura]                                     |
-| ✓          | Nov 2024 | [Lógica de programação: praticando com desafios]                                 | [Alura]                                     |
-| ✓          | Nov 2024 | [Lógica de programação: explore funções e listas]                                | [Alura]                                     |
-| ✓          | Nov 2024 | [Lógica de programação: mergulhe em programação com JavaScript]                  | [Alura]                                     |
-| ✓          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |
-| ✓          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |
-| ✓          | Nov 2024 | [Machine Learning: classificação por trás dos panos]                             | [Alura]                                     |
-| ✓          | Nov 2024 | [Estatística com Python: probabilidade e amostragem]                             | [Alura]                                     |
-| ✓          | Nov 2024 | [Estatística com Python: frequências e medidas]                                  | [Alura]                                     |
-| ✓          | Nov 2024 | [Python para Dados: trabalhando com funções, estruturas de dados e exceções]     | [Alura]                                     |
-| ✓          | Oct 2024 | [Python para Dados: primeiros passos]                                            | [Alura]                                     |
-| ✓          | Oct 2024 | [ChatGPT: otimizando a qualidade dos resultados]                                 | [Alura]                                     |
-| ✓          | Oct 2024 | [ChatGPT: desvendando a IA em conversas e suas aplicações]                       | [Alura]                                     |
-| ✓          | Jun 2024 | [SQL com MySQL: manipule e consulte dados]                                       | [Alura]                                     |
-| ✓          | Apr 2024 | [Angular: formulários orientados a templates]                                    | [Alura]                                     |
-| ✓          | Apr 2024 | [Angular: ciclo de vida]                                                         | [Alura]                                     |  
-| ✓          | Feb 2024 | [TypeScript na prática: implemente um projeto completo com TypeScript e módulos] | [Alura]                                     |
-| ✓          | Feb 2024 | [TypeScript: o paradigma funcional no front-end]                                 | [Alura]                                     |
-| ✓          | Feb 2024 | [TypeScript: aplicando orientação a objetos no Front-end]                        | [Alura]                                     |
-| ✓          | Feb 2024 | [TypeScript parte 2: avançando na linguagem]                                     | [Alura]                                     |
-| ✓          | Jan 2024 | [Angular 14: evoluindo a aplicação]                                              | [Alura]                                     |
-| ✓          | Nov 2023 | [Scrum: agilidade em seu projeto]                                                | [Alura]                                     |
-| ✓          | Oct 2023 | [Organização de Equipes Ágeis: os papéis existentes em uma equipe]               | [Alura]                                     |
-| ✓          | Sep 2023 | [Liderança: práticas de gestão e melhorias]                                      | [Alura]                                     |
-| ✓          | Sep 2023 | [Liderança: aprendendo sobre a missão e propósito de liderar pessoas]            | [Alura]                                     |
-| ✓          | Sep 2023 | [Delegação de tarefas: obtenha o melhor do seu time]                             | [Alura]                                     |
-| ✓          | Sep 2023 | [Liderança ambidestra: buscando inovação e resultados]                           | [Alura]                                     |
-| ✓          | Sep 2023 | [Curiosidade, persistência e resiliência: da ideia à ação]                       | [Alura]                                     |
-| ✓          | Sep 2023 | [A Empresa Ágil: implemente o Business Agility nas organizações]                 | [Alura]                                     |
-| ✓          | Sep 2023 | [OKR: direcionando seu negócio para resultados]                                  | [Alura]                                     |
-| ✓          | Sep 2023 | [Design Thinking: viabilizando soluções]                                         | [Alura]                                     |
-| ✓          | Sep 2023 | [Data Science: analise e visualização de dados]                                  | [Alura]                                     |
-| ✓          | Sep 2023 | [Transformação organizacional: Lean-Ágil além da TI]                             | [Alura]                                     |
-| ✓          | Aug 2023 | [JavaScript: explorando a linguagem]                                             | [Alura]                                     |
-| ✓          | Aug 2023 | [NodeMcu e Esp8266: medindo e publicando dados com MQTT]                         | [Alura]                                     |
-| ✓          | Aug 2023 | [Gestão Ágil: liderando a mudança em um ambiente de agilidade]                   | [Alura]                                     |
-| ✓          | Aug 2023 | [Comunicação estratégica na liderança: como engajar e influenciar pessoas]       | [Alura]                                     |
-| ✓          | Aug 2023 | [Feedback: a arte de orientar e ser orientado com sentido]                       | [Alura]                                     |
-| ✓          | Jul 2023 | [Comunicação: como se expressar bem e ser compreendido]                          | [Alura]                                     |
-| ✓          | Jun 2023 | [Produtividade parte 1: estratégias para o dia a dia]                            | [Alura]                                     |
-| ✓          | Apr 2023 | [Customer Success: cultura centrada em cliente]                                  | [Alura]                                     |
-| ✓          | Feb 2023 | [Dashboard com Power BI: visualizando dados]                                     | [Alura]                                     |
-| ✓          | Jan 2023 | [Go: Orientação a Objetos]                                                       | [Alura]                                     |
-| ✓          | Jan 2023 | [Typescript parte 3: mais técnicas e boas práticas]                              | [Alura]                                     |
-| ✓          | Jan 2023 | [Go: crie uma aplicação web]                                                     | [Alura]                                     |
-| ✓          | Jan 2023 | [Go: a linguagem do Google]                                                      | [Alura]                                     |
-| ✓          | Dec 2022 | [Design Thinking em vendas: conhecendo seu cliente]                              | [Alura]                                     |
-| ✓          | Oct 2022 | [Agilidade: promovendo a transformação ágil]                                     | [Alura]                                     |
-| ✓          | Sep 2022 | [Vendas de alta performance: gestão de carteira]                                 | [Alura]                                     |
-| ✓          | Sep 2022 | [Vendas de alta performance: técnicas para melhorar seu aprendizado]             | [Alura]                                     |
-| ✓          | Sep 2022 | [Vendas de alta performance: prospecção de clientes]                             | [Alura]                                     |
-| ✓          | Sep 2022 | [Vendas de alta performance: entendendo a necessidade do cliente]                | [Alura]                                     |
-| ✓          | Aug 2022 | [Vendas de alta performance: perguntas poderosas]                                | [Alura]                                     |
-| ✓          | Aug 2022 | [Vendas de alta performance: Pitch e dicas de negociação]                        | [Alura]                                     |
-| ✓          | Aug 2022 | [Estratégias de Customer Success: foco no cliente]                               | [Alura]                                     |
-| ✓          | Jul 2022 | [Vendas de alta performance: solução e proposta]                                 | [Alura]                                     |
-| ✓          | Jul 2022 | [Vendas de alta performance: vendas na era digital]                              | [Alura]                                     |
-| ✓          | Jul 2022 | [TypeScript Part 1: Evolving Your JavaScript]                                    | [Alura]                                     |
-| ✓          | May 2022 | [JavaScript: programando a Orientação a Objetos]                                 | [Alura]                                     |
-| ✓          | Apr 2022 | [Python para Data Science]                                                       | [Alura]                                     |
-| ✓          | Mar 2022 | [Go: desenvolvendo uma API Rest]                                                 | [Alura]                                     |
-| ✓          | Feb 2022 | [Mindset Digital: técnicas e habilidades para liderança remota]                  | [Alura]                                     |
-| ✓          | Jan 2022 | [Comunicação não violenta parte 2: mantendo a empatia]                           | [Alura]                                     |
-| ✓          | Jan 2022 | [Comunicação não violenta: consciência para agir]                                | [Alura]                                     |
-| ✓          | Jan 2022 | [Comunicação assertiva: reduzindo conflitos e frustrações]                       | [Alura]                                     |
-| ✓          | Aug 2021 | [Modelagem de banco de dados: NoSQL]                                             | [Alura]                                     |
-| ✓          | Aug 2021 | [Design: desenvolvendo o seu portfólio]                                          | [Alura]                                     |
-| ✓          | Aug 2021 | [Scraping com Python: coleta de dados na web]                                    | [Alura]                                     |
-| ✓          | Aug 2021 | [Aprender a aprender: técnicas para seu autodesenvolvimento]                     | [Alura]                                     |
-| ✓          | Aug 2021 | [Redis I: armazenando chaves e valores]                                          | [Alura]                                     |
-| ✓          | Jul 2021 | [UX: entenda a experiência de usuário]                                           | [Alura]                                     |
-| ✓          | Nov 2021 | [Certificate for Conquering Responsive Layouts]                                  | [KP] - Kevin Powell                         |
-| ✓          | Aug 2021 | [Aprender a Aprender: Técnicas para seu autodesenvolvimento]                     | [Alura]                                     |
-| ✓          | Aug 2021 | [Modelagem de banco de dados: Começando com NoSQL]                               | [Alura]                                     |
-| ✓          | Aug 2021 | [Redis I: Armazenando chaves e valores]                                          | [Alura]                                     |
-| ✓          | Aug 2021 | [Scraping com Python: Coleta de dados na web]                                    | [Alura]                                     |
-| ✓          | Jul 2021 | [Fundamentos de UX: Entenda a experiência de usuário]                            | [Alura]                                     |
-| ✓          | Mar 2021 | [HTML for Designers]                                                             | [Uxcel]                                     |
-| ✓          | Mar 2021 | [UI Components Best Practices]                                                   | [Uxcel]                                     |
-| ✓          | Feb 2021 | [Accessibility]                                                                  | [Uxcel]                                     |
-| ✓          | Feb 2021 | [What is Graphic Design?]                                                        | [LinkedIn]                                  |
-| ✓          | Jan 2021 | [Common Patterns]                                                                | [Uxcel]                                     |
-| ✓          | Jan 2021 | [Design Composition]                                                             | [Uxcel]                                     |
-| ✓          | Jan 2021 | [Responsive Web Design]                                                          | [freeCodeCamp.org]                          |
-| ✓          | Jan 2021 | [UI Components]                                                                  | [Uxcel]                                     |
-| ✓          | Dec 2020 | [CS50x]                                                                          | [Harvard - CS50]                            |
-| ✓          | Oct 2020 | [CS50’s Understanding Technology]                                                | [Harvard - CS50]                            |
-| ✓          | Aug 2020 | [UX/UI Design Foundations]                                                       | [Uxcel]                                     |
-| ✓          | Oct 2019 | [Curso Grátis de JavaScript]                                                     | [Curso em Vídeo]                            |
-| ✓          | May 2016 | [Fluência Duolingo em Inglês: Proficiente (estimativa)]                          | [Duolingo]                                  |
+| ✅          | Dec 2025 | [CS50’s Introduction to Programming with Python]                                 | [Harvard - CS50]                            |
+| ✅          | Jan 2025 | [DataViz - Power BI - Visionário]                                                | [Banco do Brasil]                           |
+| ✅          | Jan 2025 | [Engenharia de Dados - Visionário]                                               | [Banco do Brasil]                           |
+| ✅          | Jan 2025 | [Inteligência Artificial e Ciência de Dados - Visionário]                        | [Banco do Brasil]                           |
+| ✅          | Jan 2025 | [Web Analytics - Visionário]                                                     | [Banco do Brasil]                           |
+| ✅          | Dec 2024 | [Legacy JavaScript Algorithms and Data Structures]                               | [freeCodeCamp.org]                          |
+| ✅          | Jun 2024 | [SAS Education Brasil - SAS® Guide para Iniciantes]                              | [SAS]                                       |
+| ✅          | Nov 2023 | [Scrum]                                                                          | [Alura]                                     |
+| ✅          | Aug 2023 | [Linguaskill English C1 (CEFR)]                                                  | [Cambridge University Press & Assessment]   |
+| ✅          | Mar 2022 | [GO: DESENVOLVENDO UMA API REST]                                                 | [Alura]                                     |
+| ✅          | Feb 2022 | [GO: INICIANDO COM A LINGUAGEM DO GOOGLE]                                        | [Alura]                                     |
+| ✅          | Oct 2025 | [Aprendizado contínuo: desenvolvendo o perfil de lifelong learner]               | [Alura]                                     |
+| ✅          | Aug 2025 | [Métricas Ágeis: como medir resultados em um Ambiente Ágil]                      | [Alura]                                     |
+| ✅          | Aug 2025 | [Apache Airflow: orquestrando seu primeiro pipeline de dados]                    | [Alura]                                     |
+| ✅          | Jul 2025 | [OKR: construindo metas ágeis]                                                   | [Alura]                                     |
+| ✅          | Jul 2025 | [IA: explorando o potencial da inteligência artificial generativa]               | [Alura]                                     |
+| ✅          | May 2025 | [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD]                | [Alura]                                     |
+| ✅          | Jan 2025 | [Kanban: análises para implementação]                                            | [Alura]                                     |
+| ✅          | Jan 2025 | [Git e GitHub: compartilhando e colaborando em projetos]                         | [Alura]                                     |
+| ✅          | Jan 2025 | [Transformação Digital: inicie a implementação do movimento]                     | [Alura]                                     |
+| ✅          | Jan 2025 | [Gestão Ágil: explorando conceitos da agilidade]                                 | [Alura]                                     |
+| ✅          | Jan 2025 | [Comunicação inclusiva e vieses inconscientes]                                   | [Alura]                                     |
+| ✅          | Jan 2025 | [UX Research: metodologias e imersão em pesquisa]                                | [Alura]                                     |
+| ✅          | Nov 2024 | [Lógica de programação: praticando com desafios]                                 | [Alura]                                     |
+| ✅          | Nov 2024 | [Lógica de programação: explore funções e listas]                                | [Alura]                                     |
+| ✅          | Nov 2024 | [Lógica de programação: mergulhe em programação com JavaScript]                  | [Alura]                                     |
+| ✅          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |
+| ✅          | Nov 2024 | [Machine Learning: classificação com SKLearn]                                    | [Alura]                                     |
+| ✅          | Nov 2024 | [Machine Learning: classificação por trás dos panos]                             | [Alura]                                     |
+| ✅          | Nov 2024 | [Estatística com Python: probabilidade e amostragem]                             | [Alura]                                     |
+| ✅          | Nov 2024 | [Estatística com Python: frequências e medidas]                                  | [Alura]                                     |
+| ✅          | Nov 2024 | [Python para Dados: trabalhando com funções, estruturas de dados e exceções]     | [Alura]                                     |
+| ✅          | Oct 2024 | [Python para Dados: primeiros passos]                                            | [Alura]                                     |
+| ✅          | Oct 2024 | [ChatGPT: otimizando a qualidade dos resultados]                                 | [Alura]                                     |
+| ✅          | Oct 2024 | [ChatGPT: desvendando a IA em conversas e suas aplicações]                       | [Alura]                                     |
+| ✅          | Jun 2024 | [SQL com MySQL: manipule e consulte dados]                                       | [Alura]                                     |
+| ✅          | Apr 2024 | [Angular: formulários orientados a templates]                                    | [Alura]                                     |
+| ✅          | Apr 2024 | [Angular: ciclo de vida]                                                         | [Alura]                                     |  
+| ✅          | Feb 2024 | [TypeScript na prática: implemente um projeto completo com TypeScript e módulos] | [Alura]                                     |
+| ✅          | Feb 2024 | [TypeScript: o paradigma funcional no front-end]                                 | [Alura]                                     |
+| ✅          | Feb 2024 | [TypeScript: aplicando orientação a objetos no Front-end]                        | [Alura]                                     |
+| ✅          | Feb 2024 | [TypeScript parte 2: avançando na linguagem]                                     | [Alura]                                     |
+| ✅          | Jan 2024 | [Angular 14: evoluindo a aplicação]                                              | [Alura]                                     |
+| ✅          | Nov 2023 | [Scrum: agilidade em seu projeto]                                                | [Alura]                                     |
+| ✅          | Oct 2023 | [Organização de Equipes Ágeis: os papéis existentes em uma equipe]               | [Alura]                                     |
+| ✅          | Sep 2023 | [Liderança: práticas de gestão e melhorias]                                      | [Alura]                                     |
+| ✅          | Sep 2023 | [Liderança: aprendendo sobre a missão e propósito de liderar pessoas]            | [Alura]                                     |
+| ✅          | Sep 2023 | [Delegação de tarefas: obtenha o melhor do seu time]                             | [Alura]                                     |
+| ✅          | Sep 2023 | [Liderança ambidestra: buscando inovação e resultados]                           | [Alura]                                     |
+| ✅          | Sep 2023 | [Curiosidade, persistência e resiliência: da ideia à ação]                       | [Alura]                                     |
+| ✅          | Sep 2023 | [A Empresa Ágil: implemente o Business Agility nas organizações]                 | [Alura]                                     |
+| ✅          | Sep 2023 | [OKR: direcionando seu negócio para resultados]                                  | [Alura]                                     |
+| ✅          | Sep 2023 | [Design Thinking: viabilizando soluções]                                         | [Alura]                                     |
+| ✅          | Sep 2023 | [Data Science: analise e visualização de dados]                                  | [Alura]                                     |
+| ✅          | Sep 2023 | [Transformação organizacional: Lean-Ágil além da TI]                             | [Alura]                                     |
+| ✅          | Aug 2023 | [JavaScript: explorando a linguagem]                                             | [Alura]                                     |
+| ✅          | Aug 2023 | [NodeMcu e Esp8266: medindo e publicando dados com MQTT]                         | [Alura]                                     |
+| ✅          | Aug 2023 | [Gestão Ágil: liderando a mudança em um ambiente de agilidade]                   | [Alura]                                     |
+| ✅          | Aug 2023 | [Comunicação estratégica na liderança: como engajar e influenciar pessoas]       | [Alura]                                     |
+| ✅          | Aug 2023 | [Feedback: a arte de orientar e ser orientado com sentido]                       | [Alura]                                     |
+| ✅          | Jul 2023 | [Comunicação: como se expressar bem e ser compreendido]                          | [Alura]                                     |
+| ✅          | Jun 2023 | [Produtividade parte 1: estratégias para o dia a dia]                            | [Alura]                                     |
+| ✅          | Apr 2023 | [Customer Success: cultura centrada em cliente]                                  | [Alura]                                     |
+| ✅          | Feb 2023 | [Dashboard com Power BI: visualizando dados]                                     | [Alura]                                     |
+| ✅          | Jan 2023 | [Go: Orientação a Objetos]                                                       | [Alura]                                     |
+| ✅          | Jan 2023 | [Typescript parte 3: mais técnicas e boas práticas]                              | [Alura]                                     |
+| ✅          | Jan 2023 | [Go: crie uma aplicação web]                                                     | [Alura]                                     |
+| ✅          | Jan 2023 | [Go: a linguagem do Google]                                                      | [Alura]                                     |
+| ✅          | Dec 2022 | [Design Thinking em vendas: conhecendo seu cliente]                              | [Alura]                                     |
+| ✅          | Oct 2022 | [Agilidade: promovendo a transformação ágil]                                     | [Alura]                                     |
+| ✅          | Sep 2022 | [Vendas de alta performance: gestão de carteira]                                 | [Alura]                                     |
+| ✅          | Sep 2022 | [Vendas de alta performance: técnicas para melhorar seu aprendizado]             | [Alura]                                     |
+| ✅          | Sep 2022 | [Vendas de alta performance: prospecção de clientes]                             | [Alura]                                     |
+| ✅          | Sep 2022 | [Vendas de alta performance: entendendo a necessidade do cliente]                | [Alura]                                     |
+| ✅          | Aug 2022 | [Vendas de alta performance: perguntas poderosas]                                | [Alura]                                     |
+| ✅          | Aug 2022 | [Vendas de alta performance: Pitch e dicas de negociação]                        | [Alura]                                     |
+| ✅          | Aug 2022 | [Estratégias de Customer Success: foco no cliente]                               | [Alura]                                     |
+| ✅          | Jul 2022 | [Vendas de alta performance: solução e proposta]                                 | [Alura]                                     |
+| ✅          | Jul 2022 | [Vendas de alta performance: vendas na era digital]                              | [Alura]                                     |
+| ✅          | Jul 2022 | [TypeScript Part 1: Evolving Your JavaScript]                                    | [Alura]                                     |
+| ✅          | May 2022 | [JavaScript: programando a Orientação a Objetos]                                 | [Alura]                                     |
+| ✅          | Apr 2022 | [Python para Data Science]                                                       | [Alura]                                     |
+| ✅          | Mar 2022 | [Go: desenvolvendo uma API Rest]                                                 | [Alura]                                     |
+| ✅          | Feb 2022 | [Mindset Digital: técnicas e habilidades para liderança remota]                  | [Alura]                                     |
+| ✅          | Jan 2022 | [Comunicação não violenta parte 2: mantendo a empatia]                           | [Alura]                                     |
+| ✅          | Jan 2022 | [Comunicação não violenta: consciência para agir]                                | [Alura]                                     |
+| ✅          | Jan 2022 | [Comunicação assertiva: reduzindo conflitos e frustrações]                       | [Alura]                                     |
+| ✅          | Aug 2021 | [Modelagem de banco de dados: NoSQL]                                             | [Alura]                                     |
+| ✅          | Aug 2021 | [Design: desenvolvendo o seu portfólio]                                          | [Alura]                                     |
+| ✅          | Aug 2021 | [Scraping com Python: coleta de dados na web]                                    | [Alura]                                     |
+| ✅          | Aug 2021 | [Aprender a aprender: técnicas para seu autodesenvolvimento]                     | [Alura]                                     |
+| ✅          | Aug 2021 | [Redis I: armazenando chaves e valores]                                          | [Alura]                                     |
+| ✅          | Jul 2021 | [UX: entenda a experiência de usuário]                                           | [Alura]                                     |
+| ✅          | Nov 2021 | [Certificate for Conquering Responsive Layouts]                                  | [KP] - Kevin Powell                         |
+| ✅          | Aug 2021 | [Aprender a Aprender: Técnicas para seu autodesenvolvimento]                     | [Alura]                                     |
+| ✅          | Aug 2021 | [Modelagem de banco de dados: Começando com NoSQL]                               | [Alura]                                     |
+| ✅          | Aug 2021 | [Redis I: Armazenando chaves e valores]                                          | [Alura]                                     |
+| ✅          | Aug 2021 | [Scraping com Python: Coleta de dados na web]                                    | [Alura]                                     |
+| ✅          | Jul 2021 | [Fundamentos de UX: Entenda a experiência de usuário]                            | [Alura]                                     |
+| ✅          | Mar 2021 | [HTML for Designers]                                                             | [Uxcel]                                     |
+| ✅          | Mar 2021 | [UI Components Best Practices]                                                   | [Uxcel]                                     |
+| ✅          | Feb 2021 | [Accessibility]                                                                  | [Uxcel]                                     |
+| ✅          | Feb 2021 | [What is Graphic Design?]                                                        | [LinkedIn]                                  |
+| ✅          | Jan 2021 | [Common Patterns]                                                                | [Uxcel]                                     |
+| ✅          | Jan 2021 | [Design Composition]                                                             | [Uxcel]                                     |
+| ✅          | Jan 2021 | [Responsive Web Design]                                                          | [freeCodeCamp.org]                          |
+| ✅          | Jan 2021 | [UI Components]                                                                  | [Uxcel]                                     |
+| ✅          | Dec 2020 | [CS50x]                                                                          | [Harvard - CS50]                            |
+| ✅          | Oct 2020 | [CS50’s Understanding Technology]                                                | [Harvard - CS50]                            |
+| ✅          | Aug 2020 | [UX/UI Design Foundations]                                                       | [Uxcel]                                     |
+| ✅          | Oct 2019 | [Curso Grátis de JavaScript]                                                     | [Curso em Vídeo]                            |
+| ✅          | May 2016 | [Fluência Duolingo em Inglês: Proficiente (estimativa)]                          | [Duolingo]                                  |
 
 [//]: # (Reference links to courses)
 
@@ -219,7 +239,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 |            Status           |   Year   | Book                                                             |                Author                       |
 |:---------------------------:|:--------:|:----------------------------------------------------------------:|:-------------------------------------------:|
-| ✓          |          |                                                                  |                                             |
+| ✅          |          |                                                                  |                                             |
 | ⚡                   |          | LExpressões Regulares - Uma abordagem divertida                  | Aurélio Marinho Jargas                      |
 | ⚡                   |          | Learning Go:An Idiomatic Approach to Real-World Go Programming   | Jon Bodner                                  |
 | ⏳    |          | [How to Read a Book]                                             | Mortimer J. Adler and Charles Van Doren     |
@@ -272,37 +292,37 @@ My roadmap is on [roadmap.sh](https://roadmap.sh/duarch)
 
 |               Skill              | 1-Introduction         | 2-Basics           | 3-Good             | 4-Pretty Good         | 5-Confident         | 6-Awesome            |
 |:-------------------------------- |:----------------------:|:------------------:|:------------------:|:---------------------:|:-------------------:|:--------------------:|
-|**HTML5**                         | ✓     | ✓ | ✓ |                       |                     |                      |
-|**CSS3**                          | ✓     | ✓ |                    |                       |                     |                      |
-|**JavaScript**                    | ✓     | ✓ |                    |                       |                     |                      |
-|**ES6**                           | ✓     | ✓ |                    |                       |                     |                      |
-|**React**                         | ✓     |                    |                    |                       |                     |                      |
+|**HTML5**                         | ✅     | ✅ | ✅ |                       |                     |                      |
+|**CSS3**                          | ✅     | ✅ |                    |                       |                     |                      |
+|**JavaScript**                    | ✅     | ✅ |                    |                       |                     |                      |
+|**ES6**                           | ✅     | ✅ |                    |                       |                     |                      |
+|**React**                         | ✅     |                    |                    |                       |                     |                      |
 |**Redux**                         |                        |                    |                    |                       |                     |                      |
 |**Backbone**                      |                        |                    |                    |                       |                     |                      |
-|**Git**                           | ✓     | ✓ |                    |                       |                     |                      |
+|**Git**                           | ✅     | ✅ |                    |                       |                     |                      |
 |**Git bash**                      |                        |                    |                    |                       |                     |                      |
-|**GitHub**                        | ✓     | ✓ |                    |                       |                     |                      |
+|**GitHub**                        | ✅     | ✅ |                    |                       |                     |                      |
 |**Bitbucket**                     |                        |                    |                    |                       |                     |                      |
 |**Gulp/Webpack**                  |                        |                    |                    |                       |                     |                      |
-|**Agile**                         | ✓     |                    |                    |                       |                     |                      |
+|**Agile**                         | ✅     |                    |                    |                       |                     |                      |
 |**Stylus**                        |                        |                    |                    |                       |                     |                      |
 |**Working with APIs**             |                        |                    |                    |                       |                     |                      |
-|**jQuery**                        | ✓     | ✓ |                    |                       |                     |                      |
-|**Css Grid & Flex-box**           | ✓     | ✓ |                    |                       |                     |                      |
-|**Responsive design**             | ✓     |                    |                    |                       |                     |                      |
-|**Mobile first**                  | ✓     |                    |                    |                       |                     |                      |
+|**jQuery**                        | ✅     | ✅ |                    |                       |                     |                      |
+|**Css Grid & Flex-box**           | ✅     | ✅ |                    |                       |                     |                      |
+|**Responsive design**             | ✅     |                    |                    |                       |                     |                      |
+|**Mobile first**                  | ✅     |                    |                    |                       |                     |                      |
 |**Progressive Enhancement**       |                        |                    |                    |                       |                     |                      |
-|**Markdown**                      | ✓     | ✓ |                    |                       |                     |                      |
-|**Website Building**              | ✓     | ✓ |                    |                       |                     |                      |
-|**Publishing website**            | ✓     |                    |                    |                       |                     |                      |
-|**Bootstrap**                     | ✓     |                    |                    |                       |                     |                      |
-|**Command line**                  | ✓     | ✓ |                    |                       |                     |                      |
-|**Node.js**                       | ✓     |                    |                    |                       |                     |                      |
-|**NPM**                           | ✓     |                    |                    |                       |                     |                      |
+|**Markdown**                      | ✅     | ✅ |                    |                       |                     |                      |
+|**Website Building**              | ✅     | ✅ |                    |                       |                     |                      |
+|**Publishing website**            | ✅     |                    |                    |                       |                     |                      |
+|**Bootstrap**                     | ✅     |                    |                    |                       |                     |                      |
+|**Command line**                  | ✅     | ✅ |                    |                       |                     |                      |
+|**Node.js**                       | ✅     |                    |                    |                       |                     |                      |
+|**NPM**                           | ✅     |                    |                    |                       |                     |                      |
 |**Open Source Contribution**      |                        |                    |                    |                       |                     |                      |
-|**Angular 4**                     | ✓     |                    |                    |                       |                     |                      |
+|**Angular 4**                     | ✅     |                    |                    |                       |                     |                      |
 |**NPM scripts**                   |                        |                    |                    |                       |                     |                      |
-|**One day some will be like this**| ✓     | ✓ | ✓ | ✓    | ✓  | ✓   |
+|**One day some will be like this**| ✅     | ✅ | ✅ | ✅    | ✅  | ✅   |
 
 ----
 

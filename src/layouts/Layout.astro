@@ -7,7 +7,7 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>My Learning Tracker</title>
 
@@ -24,7 +24,8 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         --accent-soft: rgba(34, 211, 238, 0.12);
 
         --border: #1f2937;
-        --sidebar-width: 220px;
+        --sidebar-width: 240px;
+        --header-height: 64px;
       }
 
       html {
@@ -49,10 +50,49 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         background: var(--bg);
         color: var(--text);
         font-family: Inter, system-ui, sans-serif;
+        min-height: 100vh;
       }
 
-      /* ================= Sidebar ================= */
+      /* ================= Mobile Header ================= */
+      .mobile-header {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: var(--header-height);
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        z-index: 100;
+      }
 
+      .hamburger {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+      }
+
+      .hamburger span {
+        width: 22px;
+        height: 2px;
+        background: var(--text);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+      }
+
+      .hamburger span:nth-child(1) { transform: translateY(-7px); }
+      .hamburger span:nth-child(3) { transform: translateY(7px); }
+
+      .hamburger.active span:nth-child(1) { transform: rotate(45deg) translateY(0); }
+      .hamburger.active span:nth-child(2) { opacity: 0; }
+      .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translateY(0); }
+
+      /* ================= Sidebar ================= */
       aside {
         position: fixed;
         top: 0;
@@ -61,14 +101,16 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         width: var(--sidebar-width);
         background: var(--surface);
         border-right: 1px solid var(--border);
-        padding: 24px 16px;
+        padding: 32px 20px;
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 32px;
+        z-index: 90;
+        transition: transform 0.35s ease;
       }
 
       .brand {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 600;
       }
 
@@ -82,11 +124,13 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       }
 
       nav a {
-        padding: 10px 12px;
-        border-radius: 8px;
+        display: block;
+        padding: 12px 16px;
+        border-radius: 10px;
         text-decoration: none;
         color: var(--text);
-        font-size: 14px;
+        font-size: 15px;
+        transition: all 0.2s ease;
       }
 
       nav a:hover {
@@ -94,41 +138,20 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         color: var(--accent);
       }
 
-      .sidebar {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .sidebar nav {
-        flex: 1;
-      }
-
       .sidebar-footer {
         margin-top: auto;
-        margin-bottom: 2.5rem;
-
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        font-size: 12px;
+        font-size: 13px;
         color: var(--muted-text);
       }
 
-      .theme-toggle {
-        display: flex;
-        align-items: center;
-      }
-
-      .toggle-track {
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
-      }
-
       /* ================= Main ================= */
-
       main {
-        margin-left: var(--sidebar-width);
-        padding: 48px 40px;
+        min-height: 100vh;
+        padding: 40px 24px;
+        transition: margin-left 0.35s ease;
       }
 
       .container {
@@ -143,32 +166,11 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         padding: 32px;
       }
 
-      /* Markdown basics */
-      h1,
-      h2,
-      h3 {
-        letter-spacing: -0.02em;
-      }
-
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 24px 0;
-      }
-
-      th,
-      td {
-        padding: 12px;
-        border-bottom: 1px solid var(--border);
-      }
-
-      tr:hover td {
-        background: var(--accent-soft);
-      }
-
+      /* ================= Theme Toggle ================= */
       .theme-toggle {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        cursor: pointer;
       }
 
       .theme-toggle input {
@@ -177,12 +179,11 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
       }
 
       .toggle-track {
-        width: 55px;
-        height: 25px;
+        width: 56px;
+        height: 28px;
         background: #1b73ed;
         border-radius: 999px;
         padding: 4px;
-        cursor: pointer;
         transition: background 0.4s ease;
         border: 1px solid var(--border);
       }
@@ -194,38 +195,77 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         border-radius: 50%;
         display: grid;
         place-items: center;
-        transition:
-          transform 0.4s ease,
-          box-shadow 0.4s ease;
+        transition: all 0.4s ease;
         font-size: 14px;
       }
 
       .toggle-thumb::before {
         content: "☀️";
-        transition:
-          opacity 0.3s ease,
-          transform 0.3s ease;
       }
 
-      /* Light mode */
       .theme-toggle input:checked + .toggle-track {
         background: #063356;
       }
 
       .theme-toggle input:checked + .toggle-track .toggle-thumb {
-        transform: translateX(32px);
+        transform: translateX(28px);
         background: #012d56;
-        box-shadow: none;
       }
 
       .theme-toggle input:checked + .toggle-track .toggle-thumb::before {
         content: "🌙";
       }
+
+      /* ================= Responsive ================= */
+      @media (max-width: 768px) {
+        .mobile-header {
+          display: flex;
+        }
+
+        aside {
+          transform: translateX(-100%);
+        }
+
+        aside.open {
+          transform: translateX(0);
+        }
+
+        main {
+          padding-top: calc(var(--header-height) + 24px);
+          margin-left: 0 !important;
+        }
+
+        .brand {
+          font-size: 20px;
+        }
+
+        article {
+          padding: 24px;
+        }
+      }
+
+      @media (min-width: 769px) {
+        main {
+          margin-left: var(--sidebar-width);
+        }
+      }
     </style>
   </head>
 
   <body>
-    <aside>
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="brand">My Learning</div>
+      <div style="width: 28px;"></div> <!-- spacer -->
+    </header>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
       <div class="brand">My Learning</div>
 
       <nav>
@@ -238,15 +278,16 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
 
       <div class="sidebar-footer">
         <span>© 2026</span>
-        <div class="theme-toggle">
+        <label class="theme-toggle">
           <input type="checkbox" id="theme-toggle" />
-          <label for="theme-toggle" class="toggle-track">
-            <span class="toggle-thumb"></span>
-          </label>
-        </div>
+          <div class="toggle-track">
+            <div class="toggle-thumb"></div>
+          </div>
+        </label>
       </div>
     </aside>
 
+    <!-- Main Content -->
     <main>
       <div class="container">
         <article>
@@ -256,12 +297,31 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
     </main>
 
     <script>
+      // Hamburger menu
+      const hamburger = document.getElementById("hamburger");
+      const sidebar = document.getElementById("sidebar");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        sidebar.classList.toggle("open");
+      });
+
+      // Fechar sidebar ao clicar em link (mobile)
+      document.querySelectorAll("nav a").forEach(link => {
+        link.addEventListener("click", () => {
+          if (window.innerWidth <= 768) {
+            hamburger.classList.remove("active");
+            sidebar.classList.remove("open");
+          }
+        });
+      });
+
+      // Theme toggle
       const toggle = document.getElementById("theme-toggle");
       const html = document.documentElement;
 
       const savedTheme = localStorage.getItem("theme") || "dark";
 
-      // Estado inicial
       if (savedTheme === "light") {
         html.classList.add("light");
         toggle.checked = true;
@@ -270,7 +330,6 @@ const href = (path = "") => `${base}${path}`.replace(/\/+/g, "/");
         toggle.checked = false;
       }
 
-      // Alternar tema
       toggle.addEventListener("change", () => {
         if (toggle.checked) {
           html.classList.add("light");
